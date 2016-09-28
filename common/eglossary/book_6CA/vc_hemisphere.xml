@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="hemisphere">
+    <pronunciation>
+        <voicing src="g6C-hemisphere.mp3">hemisphere</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A half of Earth’s surface. (p.&nbsp;18)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="hemisferio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Mitad de la superficie de la Tierra. (pág.&nbsp;18)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

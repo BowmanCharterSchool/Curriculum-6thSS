@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Solomon">
+    <pronunciation>
+        <voicing src="g6C-solomon.mp3">Solomon</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The third king of Israel, under whom it became a powerful nation. (p.&nbsp;336)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Salomón">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tercer rey de Israel que transformó su estado en una nación poderosa. (pág.&nbsp;336)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

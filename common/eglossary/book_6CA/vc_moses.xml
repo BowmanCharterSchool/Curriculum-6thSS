@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Moses">
+    <pronunciation>
+        <voicing src="g6C-moses.mp3">Moses</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[According to the Bible, the prophet who led the Israelites from Egypt and was their lawgiver. (p.&nbsp;327)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Moisés">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Según la Biblia, profeta que condujo a los israelitas fuera de Egipto y les entregó las Tablas de la Ley. (pág.&nbsp;327)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

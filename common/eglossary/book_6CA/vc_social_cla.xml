@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="social class">
+    <pronunciation>
+        <voicing src="g6C-social_cla.mp3">social class</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A group of people with similar customs, backgrounds, training, and income. (p.&nbsp;67)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="clase social">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Grupo de personas que comparten las mismas costumbres, orígenes, formación y nivel de ingresos. (pág.&nbsp;67)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

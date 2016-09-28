@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Kush">
+    <pronunciation>
+        <voicing src="g6C-kush.mp3">Kush</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient Nubian kingdom that conquered all of upper and lower Egypt in the 700s B.C. (p.&nbsp;190)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Kush">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antiguo reino nubio que conquistó la totalidad del Alto y el Bajo Egipto en el siglo VIII a.C. (pág.&nbsp;190)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

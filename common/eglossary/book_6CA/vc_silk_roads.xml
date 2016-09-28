@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Silk Roads">
+    <pronunciation>
+        <voicing src="g6C-silk_roads.mp3">Silk Roads</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The overland trade routes along which silk and other Chinese goods passed to Mesopotamia and Europe. (p.&nbsp;277)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Ruta de la seda">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rutas comerciales terrestres por las cuales la seda y otras mercancías chinas pasaban hacia la Mesopotamia y Europa. (pág.&nbsp;277)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

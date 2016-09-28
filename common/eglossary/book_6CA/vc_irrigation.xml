@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="irrigation">
+    <pronunciation>
+        <voicing src="g6C-irrigation.mp3">irrigation</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The watering of crops. (p.&nbsp;61)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="irrigación">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Riego de los cultivos. (pág.&nbsp;61)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

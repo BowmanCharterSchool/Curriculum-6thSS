@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="step pyramid">
+    <pronunciation>
+        <voicing src="g6C-step_pyram.mp3">step pyramid</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A pyramid whose sides rise in a series of giant steps. (p.&nbsp;167)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="pirámide escalonada">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Pirámide cuyos lados se elevan en una serie de escalones gigantes. (pág.&nbsp;167)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

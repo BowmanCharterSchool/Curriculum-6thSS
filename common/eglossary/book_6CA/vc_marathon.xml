@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Marathon">
+    <pronunciation>
+        <voicing src="g6C-marathon.mp3">Marathon</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A plain in ancient Greece, northeast of Athens. (p.&nbsp;382)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Maratón">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Llanura en la antigua Grecia, al noreste de Atenas. (pág.&nbsp;382)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

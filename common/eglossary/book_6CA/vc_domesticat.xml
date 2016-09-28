@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="domesticate">
+    <pronunciation>
+        <voicing src="g6C-domesticat.mp3">domesticate</voicing>
+    </pronunciation>
+    <pos value="v.">
+        <definition id="1">
+             <![CDATA[To raise and tend (a plant or an animal) to be of use to humans. (p.&nbsp;59)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="domesticar">
+            <pos value="v.">
+                <definition id="1">
+                     <![CDATA[Criar y ocuparse (de una planta o un animal) para que sirva al hombre. (pág.&nbsp;59)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

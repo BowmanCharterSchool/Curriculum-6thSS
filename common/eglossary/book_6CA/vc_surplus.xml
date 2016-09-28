@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="surplus">
+    <pronunciation>
+        <voicing src="g6C-surplus.mp3">surplus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An amount produced in excess of what is needed. (pp. 65, 86)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="excedente">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cantidad producida en exceso de lo que se necesita. (págs. 65, 86)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

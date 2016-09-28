@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="mummy">
+    <pronunciation>
+        <voicing src="g6C-mummy.mp3">mummy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The body of a human or animal that has been preserved and dried out to prevent decay. (p.&nbsp;160)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mummy">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cuerpo de un humano o animal que ha sido conservado y disecado para evitar que se descomponga. (pág.&nbsp;160)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

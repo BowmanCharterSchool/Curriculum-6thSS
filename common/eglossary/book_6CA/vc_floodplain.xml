@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="floodplain">
+    <pronunciation>
+        <voicing src="g6C-floodplain.mp3">floodplain</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Flat land bordering a river. (p.&nbsp;84)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="llanura de inundación">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Superficie de tierra baja adyacente a un río. (pág.&nbsp;84)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

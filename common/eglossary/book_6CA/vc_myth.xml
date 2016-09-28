@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="myth">
+    <pronunciation>
+        <voicing src="g6C-myth.mp3">myth</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A story that explains beliefs, practices, or natural phenomena, often featuring gods and goddesses or other supernatural beings. (p.&nbsp;362)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mito">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Relato que explica creencias, prácticas o fenómenos naturales, con frecuencia protagonizado por dioses y diosas u otros seres sobrenaturales. (pág.&nbsp;362)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

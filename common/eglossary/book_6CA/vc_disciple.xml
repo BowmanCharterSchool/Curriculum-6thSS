@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="disciple">
+    <pronunciation>
+        <voicing src="g6C-disciple.mp3">disciple</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of Jesus’ 12 closest followers. (p.&nbsp;468)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="discípulo">
+            <pos>
+                <definition id="1">
+                     <![CDATA[s Uno de los 12 seguidores más cercanos a Jesús. (pág.&nbsp;468)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

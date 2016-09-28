@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Judaism">
+    <pronunciation>
+        <voicing src="g6C-judaism.mp3">Judaism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The religion of the Hebrews, based on the Hebrew Scriptures and a belief in one God; practiced by Jews today. (p.&nbsp;326)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="judaísmo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Religión de los hebreos, basada en las escrituras hebreas y en la creencia de un solo Dios, practicada por los judíos hoy en día. (pág.&nbsp;326)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

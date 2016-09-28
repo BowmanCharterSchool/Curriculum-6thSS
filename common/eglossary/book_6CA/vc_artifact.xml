@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="artifact">
+    <pronunciation>
+        <voicing src="g6C-artifact.mp3">artifact</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A human-made object. (p.&nbsp;28)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="artefacto">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Objeto fabricado por el hombre. (pág.&nbsp;28)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

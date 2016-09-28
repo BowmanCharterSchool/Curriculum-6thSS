@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Remus">
+    <pronunciation>
+        <voicing src="g6C-remus.mp3">Remus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The twin brother of Romulus. (p.&nbsp;432)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Remo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Hermano gemelo de Rómulo. (pág.&nbsp;432)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

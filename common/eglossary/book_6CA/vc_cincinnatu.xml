@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Cincinnatus">
+    <pronunciation>
+        <voicing src="g6C-cincinnatu.mp3">Cincinnatus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A dictator of Rome for one day in 458 B.C. (p.&nbsp;438)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Cincinato">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Dictador de Roma por un día en el año 458 a.C. (pág.&nbsp;438)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Khufu">
+    <pronunciation>
+        <voicing src="g6C-khufu.mp3">Khufu</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The Egyptian pharaoh who, about 2550 B.C., ordered the construction of the largest pyramid ever built. (p.&nbsp;167)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Khufu">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Faraón egipcio que, alrededor del año 2550 a.C., ordenó la construcción de la pirámide más grande jamás construida. (pág.&nbsp;167)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

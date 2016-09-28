@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="aristocracy">
+    <pronunciation>
+        <voicing src="g6C-aristocrac.mp3">aristocracy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An upper class or nobility. (p.&nbsp;373)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="aristocracia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Clase alta o nobleza. (pág.&nbsp;373)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Ten Commandments">
+    <pronunciation>
+        <voicing src="g6C-ten_comman.mp3">Ten Commandments</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The basis of the law of the Israelites, given, according to the Torah, by God to Moses. (p.&nbsp;327)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Diez Mandamientos">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Base de la ley de los israelitas que, según el Torah, Dios entregó a Moisés. (pág.&nbsp;327)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,261 @@
+﻿<?xml version-"1.0" encoding="UTF-8"?>
+<glossary grade="4C">
+<word value="adapt" file="vc_adapt.xml" />
+<word value="adobe" file="vc_adobe.xml" />
+<word value="advertisement" file="vc_advertisem.xml" />
+<word value="aerospace industry" file="vc_aerospace_.xml" />
+<word value="agriculture" file="vc_agricultur.xml" />
+<word value="alcalde" file="vc_alcalde.xml" />
+<word value="amend" file="vc_amend.xml" />
+<word value="ancestor" file="vc_ancestor.xml" />
+<word value="aqueduct" file="vc_aqueduct.xml" />
+<word value="armed forces" file="vc_armed_forc.xml" />
+<word value="artists' colony" file="vc_artists_co.xml" />
+<word value="assembly" file="vc_assembly.xml" />
+<word value="atlas" file="vc_atlas.xml" />
+<word value="barrio" file="vc_barrio.xml" />
+<word value="barter" file="vc_barter.xml" />
+<word value="base" file="vc_base.xml" />
+<word value="basin" file="vc_basin.xml" />
+<word value="bay" file="vc_bay.xml" />
+<word value="benefit" file="vc_benefit.xml" />
+<word value="boom" file="vc_boom.xml" />
+<word value="boycott" file="vc_boycott.xml" />
+<word value="bracero" file="vc_bracero.xml" />
+<word value="branch" file="vc_branch.xml" />
+<word value="breakwater" file="vc_breakwater.xml" />
+<word value="bribe" file="vc_bribe.xml" />
+<word value="business" file="vc_business.xml" />
+<word value="Californio" file="vc_californio.xml" />
+<word value="capital" file="vc_capital.xml" />
+<word value="capitol" file="vc_capitol.xml" />
+<word value="century" file="vc_century.xml" />
+<word value="ceremony" file="vc_ceremony.xml" />
+<word value="circle graph" file="vc_circle_gra.xml" />
+<word value="citizen" file="vc_citizen.xml" />
+<word value="city council" file="vc_city_counc.xml" />
+<word value="city manager" file="vc_city_manag.xml" />
+<word value="civil rights" file="vc_civil_righ.xml" />
+<word value="civilian" file="vc_civilian.xml" />
+<word value="claim" file="vc_claim.xml" />
+<word value="clan" file="vc_clan.xml" />
+<word value="climate" file="vc_climate.xml" />
+<word value="colony" file="vc_colony.xml" />
+<word value="commission" file="vc_commission.xml" />
+<word value="communication" file="vc_communican.xml" />
+<word value="communication industry" file="vc_commun_ind.xml" />
+<word value="community" file="vc_community.xml" />
+<word value="compass rose" file="vc_compass_ro.xml" />
+<word value="compromise" file="vc_compromise.xml" />
+<word value="conclusion" file="vc_conclusion.xml" />
+<word value="conflict" file="vc_conflict.xml" />
+<word value="congress" file="vc_congress.xml" />
+<word value="conquistador" file="vc_conquistad.xml" />
+<word value="consent" file="vc_consent.xml" />
+<word value="conservation" file="vc_conservati.xml" />
+<word value="constitution" file="vc_constituti.xml" />
+<word value="construction" file="vc_constructi.xml" />
+<word value="consumer" file="vc_consumer.xml" />
+<word value="continent" file="vc_continent.xml" />
+<word value="convention" file="vc_convention.xml" />
+<word value="convert" file="vc_convert.xml" />
+<word value="cost" file="vc_cost.xml" />
+<word value="council" file="vc_council.xml" />
+<word value="county" file="vc_county.xml" />
+<word value="culture" file="vc_culture.xml" />
+<word value="current" file="vc_current.xml" />
+<word value="decade" file="vc_decade.xml" />
+<word value="declaration" file="vc_declaratio.xml" />
+<word value="defense industry" file="vc_defense_in.xml" />
+<word value="delegate" file="vc_delegate.xml" />
+<word value="delta" file="vc_delta.xml" />
+<word value="demand" file="vc_demand.xml" />
+<word value="democracy" file="vc_democracy.xml" />
+<word value="depression" file="vc_depression.xml" />
+<word value="desert" file="vc_desert.xml" />
+<word value="diputación" file="vc_diputacin.xml" />
+<word value="discrimination" file="vc_discrimina.xml" />
+<word value="diseño" file="vc_diseo.xml" />
+<word value="district" file="vc_district.xml" />
+<word value="diverse" file="vc_diverse.xml" />
+<word value="diversity" file="vc_diversity.xml" />
+<word value="drought" file="vc_drought.xml" />
+<word value="Dust Bowl" file="vc_dust_bowl.xml" />
+<word value="earthquake" file="vc_earthquake.xml" />
+<word value="economy" file="vc_economy.xml" />
+<word value="emperor" file="vc_emperor.xml" />
+<word value="encyclopedia" file="vc_encycloped.xml" />
+<word value="engineer" file="vc_engineer.xml" />
+<word value="entrepreneur" file="vc_entreprene.xml" />
+<word value="environment" file="vc_environmen.xml" />
+<word value="equator" file="vc_equator.xml" />
+<word value="erosion" file="vc_erosion.xml" />
+<word value="exclusion" file="vc_exclusion.xml" />
+<word value="executive branch" file="vc_executive_.xml" />
+<word value="exhaust" file="vc_exhaust.xml" />
+<word value="expedition" file="vc_expedition.xml" />
+<word value="export" file="vc_export.xml" />
+<word value="fact" file="vc_fact.xml" />
+<word value="fault" file="vc_fault.xml" />
+<word value="fertile" file="vc_fertile.xml" />
+<word value="festival" file="vc_festival.xml" />
+<word value="fiesta" file="vc_fiesta.xml" />
+<word value="flow resource" file="vc_flow_resou.xml" />
+<word value="forty-niner" file="vc_forty-nine.xml" />
+<word value="frontier" file="vc_frontier.xml" />
+<word value="geographer" file="vc_geographer.xml" />
+<word value="geography" file="vc_geography.xml" />
+<word value="ghost town" file="vc_ghost_town.xml" />
+<word value="glacier" file="vc_glacier.xml" />
+<word value="globe" file="vc_globe.xml" />
+<word value="gold rush" file="vc_gold_rush.xml" />
+<word value="goods" file="vc_goods.xml" />
+<word value="government" file="vc_government.xml" />
+<word value="governor" file="vc_governor.xml" />
+<word value="grant" file="vc_grant.xml" />
+<word value="headquarters" file="vc_headquarte.xml" />
+<word value="hemisphere" file="vc_hemisphere.xml" />
+<word value="high-tech" file="vc_high-tech.xml" />
+<word value="hunter-gatherer" file="vc_hunter-gat.xml" />
+<word value="hydraulic mining" file="vc_hydraulic_.xml" />
+<word value="hydroelectric power" file="vc_hydroelect.xml" />
+<word value="immigrant" file="vc_immigrant.xml" />
+<word value="immigration" file="vc_immigratio.xml" />
+<word value="import" file="vc_import.xml" />
+<word value="independence" file="vc_independen.xml" />
+<word value="index" file="vc_index.xml" />
+<word value="industry" file="vc_industry.xml" />
+<word value="international trade" file="vc_intl_trade.xml" />
+<word value="internment camp" file="vc_internment.xml" />
+<word value="investor" file="vc_investor.xml" />
+<word value="irrigation" file="vc_irrigation.xml" />
+<word value="isthmus" file="vc_isthmus.xml" />
+<word value="judicial branch" file="vc_judicial_b.xml" />
+<word value="justice" file="vc_justice.xml" />
+<word value="labor union" file="vc_labor_unio.xml" />
+<word value="landfill" file="vc_landfill.xml" />
+<word value="landform" file="vc_landform.xml" />
+<word value="land grant" file="vc_land_grant.xml" />
+<word value="latitude line" file="vc_latitude_l.xml" />
+<word value="leadership" file="vc_leadership.xml" />
+<word value="legend" file="vc_legend.xml" />
+<word value="legislative branch" file="vc_legislativ.xml" />
+<word value="legislature" file="vc_legislatur.xml" />
+<word value="longitude line" file="vc_longitude_.xml" />
+<word value="Manifest Destiny" file="vc_manifest_d.xml" />
+<word value="manufacturing" file="vc_manufactur.xml" />
+<word value="market" file="vc_market.xml" />
+<word value="metropolitan area" file="vc_metropolit.xml" />
+<word value="migrant worker" file="vc_migrant_wo.xml" />
+<word value="military" file="vc_military.xml" />
+<word value="minimum wage" file="vc_minimum_wa.xml" />
+<word value="missile" file="vc_missile.xml" />
+<word value="mission" file="vc_mission.xml" />
+<word value="missionary" file="vc_missionary.xml" />
+<word value="mountain pass" file="vc_mountain_p.xml" />
+<word value="movie palace" file="vc_movie_pala.xml" />
+<word value="mutualista" file="vc_mutualista.xml" />
+<word value="natural resource" file="vc_natural_re.xml" />
+<word value="naturalized citizen" file="vc_naturalize.xml" />
+<word value="nonrenewable resource" file="vc_nonrenewab.xml" />
+<word value="nonviolent protest" file="vc_nonviolent.xml" />
+<word value="official" file="vc_official.xml" />
+<word value="opinion" file="vc_opinion.xml" />
+<word value="oral history" file="vc_oral_histo.xml" />
+<word value="orbit" file="vc_orbit.xml" />
+<word value="party" file="vc_party.xml" />
+<word value="peninsula" file="vc_peninsula.xml" />
+<word value="petroleum" file="vc_petroleum.xml" />
+<word value="pioneer" file="vc_pioneer.xml" />
+<word value="point of view" file="vc_point_of_v.xml" />
+<word value="pollution" file="vc_pollution.xml" />
+<word value="population density" file="vc_pop_density.xml" />
+<word value="population distribution" file="vc_pop_distrib.xml" />
+<word value="presidio" file="vc_presidio.xml" />
+<word value="primary source" file="vc_primary_so.xml" />
+<word value="prime meridian" file="vc_prime_meri.xml" />
+<word value="produce" file="vc_produce.xml" />
+<word value="productivity" file="vc_productivi.xml" />
+<word value="professional" file="vc_profession.xml" />
+<word value="profit" file="vc_profit.xml" />
+<word value="progressive" file="vc_progressiv.xml" />
+<word value="property rights" file="vc_property_r.xml" />
+<word value="public" file="vc_public.xml" />
+<word value="pueblo" file="vc_pueblo.xml" />
+<word value="ranchera" file="vc_ranchera.xml" />
+<word value="rancheria" file="vc_rancheria.xml" />
+<word value="ranchero" file="vc_ranchero.xml" />
+<word value="rancho" file="vc_rancho.xml" />
+<word value="rebel" file="vc_rebel.xml" />
+<word value="reclaim" file="vc_reclaim.xml" />
+<word value="recycle" file="vc_recycle.xml" />
+<word value="reform" file="vc_reform.xml" />
+<word value="refrigerate" file="vc_refrigerat.xml" />
+<word value="refugee" file="vc_refugee.xml" />
+<word value="region" file="vc_region.xml" />
+<word value="religion" file="vc_religion.xml" />
+<word value="renewable resource" file="vc_renewable_.xml" />
+<word value="report" file="vc_report.xml" />
+<word value="republic" file="vc_republic.xml" />
+<word value="reservation" file="vc_reservatio.xml" />
+<word value="reservoir" file="vc_reservoir.xml" />
+<word value="responsibility" file="vc_responsibi.xml" />
+<word value="revolt" file="vc_revolt.xml" />
+<word value="right" file="vc_right.xml" />
+<word value="rodeo" file="vc_rodeo.xml" />
+<word value="satellite" file="vc_satellite.xml" />
+<word value="sawmill" file="vc_sawmill.xml" />
+<word value="scale" file="vc_scale.xml" />
+<word value="school district" file="vc_school_dis.xml" />
+<word value="search engine" file="vc_search_eng.xml" />
+<word value="secondary source" file="vc_secondary_.xml" />
+<word value="secularization" file="vc_seculariza.xml" />
+<word value="segregation" file="vc_segregatio.xml" />
+<word value="service" file="vc_service.xml" />
+<word value="service industry" file="vc_service_in.xml" />
+<word value="settler" file="vc_settler.xml" />
+<word value="shaman" file="vc_shaman.xml" />
+<word value="Sikh" file="vc_sikh.xml" />
+<word value="slate" file="vc_slate.xml" />
+<word value="slavery" file="vc_slavery.xml" />
+<word value="smog" file="vc_smog.xml" />
+<word value="solar energy" file="vc_solar_ener.xml" />
+<word value="space race" file="vc_space_race.xml" />
+<word value="special district" file="vc_special_di.xml" />
+<word value="special purpose map" file="vc_special_pu.xml" />
+<word value="squatter" file="vc_squatter.xml" />
+<word value="stagecoach" file="vc_stagecoach.xml" />
+<word value="strike" file="vc_strike.xml" />
+<word value="suburb" file="vc_suburb.xml" />
+<word value="suffrage" file="vc_suffrage.xml" />
+<word value="summarize" file="vc_summarize.xml" />
+<word value="supply" file="vc_supply.xml" />
+<word value="symbol" file="vc_symbol.xml" />
+<word value="talkie" file="vc_talkie.xml" />
+<word value="tallow" file="vc_tallow.xml" />
+<word value="tax" file="vc_tax.xml" />
+<word value="technology" file="vc_technology.xml" />
+<word value="telegraph" file="vc_telegraph.xml" />
+<word value="tenant farmer" file="vc_tenant_far.xml" />
+<word value="territory" file="vc_territory.xml" />
+<word value="tourism" file="vc_tourism.xml" />
+<word value="trade" file="vc_trade.xml" />
+<word value="tradition" file="vc_tradition.xml" />
+<word value="transcontinental" file="vc_transconti.xml" />
+<word value="transportation" file="vc_transporta.xml" />
+<word value="trapper" file="vc_trapper.xml" />
+<word value="treaty" file="vc_treaty.xml" />
+<word value="trend" file="vc_trend.xml" />
+<word value="unemployment" file="vc_unemployme.xml" />
+<word value="university" file="vc_university.xml" />
+<word value="vaquero" file="vc_vaquero.xml" />
+<word value="veteran" file="vc_veteran.xml" />
+<word value="viceroy" file="vc_viceroy.xml" />
+<word value="vigilante" file="vc_vigilante.xml" />
+<word value="volcano" file="vc_volcano.xml" />
+<word value="wagon train" file="vc_wagon_trai.xml" />
+<word value="water rights" file="vc_water_righ.xml" />
+<word value="watershed" file="vc_watershed.xml" />
+<word value="weather" file="vc_weather.xml" />
+<word value="wetland" file="vc_wetland.xml" />
+</glossary>

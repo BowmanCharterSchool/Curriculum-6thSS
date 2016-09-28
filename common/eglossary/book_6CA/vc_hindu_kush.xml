@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hindu Kush">
+    <pronunciation>
+        <voicing src="g6C-hindu_kush.mp3">Hindu Kush</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A mountain range along the northwestern border of India. (p.&nbsp;220)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Hindu Kush">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cadena de montañas que se extiende por el límite norte-occidental de la India. (pág.&nbsp;220)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="synagogue">
+    <pronunciation>
+        <voicing src="g6C-synagogue.mp3">synagogue</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A building for Jewish prayer and worship and instruction in the Jewish faith. (p.&nbsp;346)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="sinagoga">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Edificio de culto y oración de los judíos, donde se enseña la fe judía. (pág.&nbsp;346)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Aryan">
+    <pronunciation>
+        <voicing src="g6C-aryan.mp3">Aryan</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A member of an Indo- European people who crossed into India around 1500 B.C. (p.&nbsp;228)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Ario">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Miembro de un pueblo indoeuropeo que emigró a la India hacia 1500 a.C. (pág.&nbsp;228)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

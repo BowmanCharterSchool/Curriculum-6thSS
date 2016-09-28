@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="secondary source">
+    <pronunciation>
+        <voicing src="g6C-secondary_.mp3">secondary source</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An account of a historical event written by someone who did not witness the event. (p.&nbsp;41)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="fuente secundaria">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Relato de un acontecimiento histórico realizado por una persona que no presenció los hechos. (pág.&nbsp;41)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

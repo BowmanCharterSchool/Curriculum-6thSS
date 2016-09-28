@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="aquifer">
+    <pronunciation>
+        <voicing src="g6C-aquifer.mp3">aquifer</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An underground layer of sand, gravel, or spongy rock that contains water. (p.&nbsp;297)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="acuífero">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Capa subterránea de arena, grava o rocas esponjosas que contiene agua. (pág.&nbsp;297)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

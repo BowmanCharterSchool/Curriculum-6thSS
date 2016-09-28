@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Epistle">
+    <pronunciation>
+        <voicing src="g6C-epistle.mp3">Epistle</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of the letters included in the New Testament, written by Jesus’ apostles to early Christian churches to instruct them in Christian beliefs and practices. (p.&nbsp;480)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Epístola">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Una de las cartas incluidas en el Nuevo Testamento, escrita por los apóstoles de Jesús a las primeras iglesias cristianas para transmitirles las creencias y prácticas cristianas. (pág.&nbsp;480)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

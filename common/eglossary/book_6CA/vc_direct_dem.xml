@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="direct democracy">
+    <pronunciation>
+        <voicing src="g6C-direct_dem.mp3">direct democracy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A form of democracy in which citizens participate directly in running the government. (p.&nbsp;394)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="democracia directa">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Forma de democracia en la cual los ciudadanos gobiernan directamente. (pág.&nbsp;394)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

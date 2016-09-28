@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Justinian">
+    <pronunciation>
+        <voicing src="g6C-justinian.mp3">Justinian</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The emperor of the Eastern Roman Empire from A.D. 527 to 565, who ruled with his wife, Theodora, and reconquered lost territories for the empire. (p.&nbsp;509)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Justiniano">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Emperador del Imperio Romano de Oriente de 527 a 565 d.C., quien reinó con su esposa, Teodora, y reconquistó territorios perdidos para el imperio. (pág.&nbsp;509)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

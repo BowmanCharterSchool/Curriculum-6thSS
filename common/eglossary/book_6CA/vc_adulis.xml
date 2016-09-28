@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Adulis">
+    <pronunciation>
+        <voicing src="g6C-adulis.mp3">Adulis</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient city on the Red Sea, which served as the main trading port of the kingdom of Aksum. (p.&nbsp;198)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Adulis">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua ciudad del Mar Rojo, que servía como el principal puerto mercantil del reino de Aksum. (pág.&nbsp;198)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

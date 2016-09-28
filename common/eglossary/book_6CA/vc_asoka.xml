@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Asoka">
+    <pronunciation>
+        <voicing src="g6C-asoka.mp3">Asoka</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The greatest Maurya king, whose reign began in 269 B.C. (p.&nbsp;236)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Asoka">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[El rey más importante de la dinastía mauria, cuyo reinado comenzó en el año 269 a.C. (pág.&nbsp;236)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

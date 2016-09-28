@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Mesopotamia">
+    <pronunciation>
+        <voicing src="g6C-mesopotami.mp3">Mesopotamia</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The area of Southwest Asia between the Tigris and Euphrates rivers—home to many early civilizations. (p.&nbsp;83)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Mesopotamia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Area del suroeste asiático entre los ríos Tigris y Éufrates, cuna de muchas civilizaciones antiguas. (pág.&nbsp;83)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

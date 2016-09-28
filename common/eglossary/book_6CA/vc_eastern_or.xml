@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Eastern Orthodox Church">
+    <pronunciation>
+        <voicing src="g6C-eastern_or.mp3">Eastern Orthodox Church</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A branch of Christianity that developed in the Byzantine Empire and is not under the authority of the pope. (p.&nbsp;511)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Iglesia Ortodoxa Oriental">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rama del cristianismo que se desarrolló en el imperio bizantino y no se encuentra bajo la autoridad del papa. (pág.&nbsp;511)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Confucianism">
+    <pronunciation>
+        <voicing src="g6C-confuciani.mp3">Confucianism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A philosophy based on the teachings of Confucius (551–479 B.C.), as recorded in the collection called the Analects. (p.&nbsp;260)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="confucionismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Filosofía basada en las enseñanzas de Confucio (551–479 a.C.), según se registra en la colección llamada Analects. (pág.&nbsp;260)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

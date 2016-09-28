@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="king">
+    <pronunciation>
+        <voicing src="g6C-king.mp3">king</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The highest-ranking leader of a group of people. (p.&nbsp;95)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="rey">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[líder de mayor rango de un grupo de personas. (pág.&nbsp;95)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

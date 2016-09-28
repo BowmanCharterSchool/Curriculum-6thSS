@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="absolute ruler">
+    <pronunciation>
+        <voicing src="g6C-absolute_r.mp3">absolute ruler</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person who has total power and governs alone. (p.&nbsp;497)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="monarca absoluto">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Soberano que tiene poder ilimitado y que gobierna solo. (pág.&nbsp;497)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

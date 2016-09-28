@@ -1,0 +1,1059 @@
+<!-- saved from url=(0014)about:internet -->
+
+<html>
+
+	<head>
+
+		<title>
+
+			eHistory-Social Science Book 
+
+		</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+		<link rel="stylesheet" href="../../common/css/SS.css">
+
+		<link rel="stylesheet" href="../../common/css/printables.css" media="print">
+
+		
+
+		<script language="javascript" src="../js/permissions.js"></script>
+
+		<script language="javascript" src="../../common/js/client_functionality.js"></script>
+
+		<script language="javascript" src="../../common/js/drag_script.js"></script>
+
+
+
+<script language="javascript">
+
+	
+
+	//turn off buttons (only nec. in TOC)
+
+	if (!top.GetAudioOn()) {document.write('<style type="text/css">.drag {display: none;}<\/style>');} 
+
+
+
+	var tocPage = false; //*DO NOT CHANGE THIS LINE*
+
+	var audioButtonsNumbered = true; //*DO NOT CHANGE THIS LINE*
+
+
+
+	//PageInfo Variables
+
+	var prevPage = 1;
+
+	var nextPage = 1;
+
+	var largerPage = 1;
+
+	var smallerPage = 1;
+
+	var printPage = -1;
+
+	var bothPages = 1;
+
+	var leftPageType = "gif";
+
+	var rightPageType = "gif";
+
+	var pagegraphic = "SP60-CA7B-NHN-327.gif";
+
+
+
+	//Set page sizes
+
+	//FILL_PAGESIZE_ARRAY_START *DO NOT CHANGE THIS LINE*
+
+	var xpagesize = new Array(355, 570, 735, 1100);
+
+	var ypagesize = new Array(468, 751, 969, 1450);
+
+	//FILL_PAGESIZE_ARRAY_END
+
+
+
+	var size = top.GetPageSize();
+
+
+
+	//set percentage offsets for different page sizes
+
+	var sizeModArray = new Array(.6242, 1, 1.2895, 1.9283);
+
+
+
+	//Set position of audio buttons
+
+	var xarray = new Array(0,0,0,96,491,60,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+	var yarray = new Array(0,0,0,-715,-656,-432,-82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+
+
+	//set trackArray
+
+	var trackArray = new Array();
+
+
+
+	//set state-specific audio (grade 3 only)
+
+	var stateSpecificAudio = false; 
+
+
+
+	if (trackArray.length == 0)	{
+
+		for (var i=1; i <= 28; i++)	{
+
+			if (top.BUTTONSDRAGABLE) {
+
+				//trackArray.push(i);
+
+				trackArray[i-1] = i;
+
+			}
+
+			else {
+
+				if (yarray[i-1] < 0) { 
+
+					//trackArray.push(i);
+
+					trackArray[trackArray.length] = i;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+	
+
+	function SetPageInfo() {
+
+
+
+		//nextPage, prevPage -1 is disabled, 1 is enabled
+
+		//largerPage, smallerPage -1 is disabled, 1 is enabled
+
+		//bothPages, -1 is disabled, 1 is enabled, 2 is lit
+
+		//printPage, -1 is disabled, 1 is enabled
+
+
+
+		top.SetPageInfo(
+
+			prevPage, // prevPage
+
+			nextPage,  // nextPage
+
+			largerPage, // largerPage
+
+			smallerPage,  // smallerPage
+
+			bothPages,	// bothPages
+
+			printPage,	// printPage
+
+			trackArray,	// audio tracks -> now: trackArray
+
+			stateSpecificAudio, // stateSpecificAudio
+
+			leftPageType,
+
+			rightPageType
+
+		);
+
+
+
+	} // SetPageInfo
+
+
+
+
+
+	function EPLink() {
+
+
+
+		if (document["eduplace"].src.indexOf("-disabled") < 0) {
+
+			top.EPLink();
+
+		} else {
+
+			alert (getGlobalText("GT012"));
+
+		}
+
+
+
+	} // EPLink
+
+
+
+
+
+	function InteractiveMap(mapCode, localRemote) {
+
+
+
+		top.InteractiveMap(mapCode, localRemote);
+
+
+
+	} // InteractiveMap
+
+
+
+
+
+	function InteractiveMaps() {
+
+
+
+		top.InteractiveMap('all');
+
+
+
+	} // InteractiveMaps
+
+
+
+
+
+	function adjustForPage(shift) {
+
+	
+
+		var shiftconstant = 9; //23
+
+		shift = shift + shiftconstant;
+
+		shift = (shift * sizeModArray[size-1]);
+
+		shift = shift - shiftconstant;
+
+		return shift;
+
+	}
+
+
+
+
+
+	function refreshButtonPositions() {
+
+		
+
+		if (!top.GetAudioOn()) {
+
+			return true;
+
+		}
+
+		var buttonsPlaced = 0;
+
+
+
+		for (var i=1; i <= yarray.length; i++) {
+
+			if ((yarray[i-1] < 0) || (top.BUTTONSDRAGABLE)) {
+
+				var image = document.getElementById("audio" + i);
+
+				var ypos = adjustForPage(yarray[i-1] + 11.5) - 11.5;
+
+		
+
+				//var ypos = yarray[i-1];
+
+				//ypos = ypos + 11.5;
+
+				//var ypos = adjustForPage(ypos);
+
+				//ypos = ypos - 11.5;
+
+				image.style.top = ypos + 'px';
+
+			
+
+				//image.style.top = adjustForPage(yarray[i-1]);
+
+		
+
+				if (yarray[i-1] != 0) {
+
+					var xpos = xarray[i-1];
+
+					xpos = xpos + 19;
+
+					xpos = xpos * sizeModArray[size-1];
+
+					if (top.BUTTONSDRAGABLE) { 
+
+						xpos = xpos - ((i-1) * 38);
+
+					}
+
+					else { 
+
+						xpos = xpos - (buttonsPlaced * 38); 
+
+					}
+
+					
+
+					xpos = xpos - 19;
+
+					image.style.left = xpos + 'px';
+
+				
+
+					//Lines to use if you don't want to "center" the zooming
+
+					//image.style.left = ((xarray[i-1] * sizeModArray[size-1]) - ((i-1) * 38));
+
+					//image.style.left = ((xarray[i-1] * sizeModArray[size-1]) - (buttonsPlaced * 38));
+
+					
+
+					buttonsPlaced++;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+	
+
+	function ChangePageSize(newSize) {
+
+
+
+		size = newSize;
+
+
+
+		// change src to a white image
+
+		// solves an occasional "ghost" remnant when you size down a page.
+
+		// separate this and the next src change as much as possible 
+
+		document["pageimage"].src = "../../common/graphics/misc/whitedot.gif";
+
+		
+
+		//update height and width styles
+
+		document["pageimage"].style.width = xpagesize[size-1];
+
+		document["pageimage"].style.height = ypagesize[size-1];
+
+		
+
+		refreshButtonPositions();
+
+		
+
+		// update pageimage
+
+		var pagepath = "../../book/pagegraphics/" + size + "/" + pagegraphic;
+
+		document["pageimage"].src = pagepath;
+
+
+
+	
+
+	}  // ChangePageSize
+
+
+
+
+
+	function toggleList(elt) {
+
+		//alert(elt.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.tagName);
+
+		if (elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display == "none") {
+
+			elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display = "";
+
+			elt.src = "../../common/graphics/toc/dingbats/minus.gif";
+
+		}
+
+		else {
+
+			elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display = "none"
+
+			elt.src = "../../common/graphics/toc/dingbats/plus.gif";
+
+		}
+
+	}
+
+
+
+
+
+	function spreadTrack2PageTrack(spreadTrack) {
+
+		
+
+		var pageTrack = 0;
+
+		for (var j=0; j<=trackArray.length; j++) {
+
+			if (spreadTrack == trackArray[j]) {
+
+				pageTrack = j + 1;
+
+				break;
+
+			}
+
+		}
+
+		return pageTrack;
+
+	}
+
+
+
+
+
+	function ToggleSpreadTrack(spreadTrack) {
+
+	
+
+		if (top.GetAudioOn()) {
+
+			var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+			if (document["audio" + spreadTrack].src.indexOf("-active") == -1) {
+
+				for (otherPageTrack=1; otherPageTrack<=trackArray.length; otherPageTrack++) {
+
+					if (audioButtonsNumbered) {
+
+						var audioNumberLetter = otherPageTrack;
+
+					} 
+
+					else {
+
+						var audioNumberLetter = 'X';
+
+					}
+
+					document['audio' + trackArray[otherPageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+				}
+
+				top.PlayPageTrack(pageTrack);
+
+			}
+
+			else {
+
+				top.StopPageTrack(pageTrack);
+
+				var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+				if (audioButtonsNumbered) {
+
+					var audioNumberLetter = pageTrack;
+
+				}
+
+				else {
+
+					var audioNumberLetter = 'X';
+
+				}
+
+				document['audio' + spreadTrack].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+			}
+
+		}
+
+	}
+
+
+
+
+
+	function redden(table) {
+
+	
+
+		table.style.borderColor="red";
+
+	
+
+	}
+
+
+
+	function whitten(table) {
+
+		
+
+		table.style.borderColor="white";
+
+	
+
+	}
+
+
+
+	
+
+	function ActivatePageTrack(pageTrack) {
+
+	
+
+		if (audioButtonsNumbered) {
+
+			var audioNumberLetter = pageTrack;
+
+		}
+
+		else {
+
+			var audioNumberLetter = 'X';
+
+		}
+
+		document['audio' + trackArray[pageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + "-active.gif";
+
+
+
+	}
+
+
+
+
+
+	function DeactivatePageTrack(pageTrack) {
+
+		
+
+		if (audioButtonsNumbered) {var audioNumberLetter = pageTrack} else {var audioNumberLetter = 'X'}
+
+		if (trackArray.length > 0) { // added to ensure that only buttons that exist are stopped (swapped orange)
+
+			document['audio' + trackArray[pageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+		}
+
+	}
+
+
+
+</script> 
+
+	<head>
+
+	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:SetPageInfo();" tabindex="1">
+
+		<table width="100%" height="90%" border="0" cellspacing="0" cellpadding="0">
+
+			<tr class="nav_bar">
+
+
+
+<!--start features bar-->
+
+
+
+				<td width="171" bgcolor="#DFDFFE" class="features_bar" valign="top" align="center">
+
+					<a href="javascript:top.JumpTOC()" name="focus_after_read_aloud"><img src="../../common/graphics/nav/buttons/toc.gif" name="toc" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="132" height="28" border="0" alt="Contents" style="margin-left: 8px; margin-top: 17px; margin-bottom: 9px;"></a>
+
+
+
+<!--start vocabulary lozenge-->
+
+
+
+					<table width="153" border="0" cellspacing="0" cellpadding="0" class="lozenge">
+
+						<tr valign="bottom">
+
+							<td colspan="3"><img src="../../common/graphics/features/titles/vocabulary.gif" border="0" width="153" height="39" alt="Vocabulary"></td>
+
+						</tr>
+
+						<tr align="center" valign="middle">
+
+							<td width="14" background="../../common/graphics/features/lozenge/left.gif" style="background-repeat:repeat-y"></td>
+
+							<td width="135" class="features_cell">
+
+								<div class="features_cluster"><a href="javascript:top.Glossary('Abraham')" class="redroll">Abraham</a><br><a href="javascript:top.Glossary('monotheism')" class="redroll">monotheism</a><br><a href="javascript:top.Glossary('Judaism')" class="redroll">Judaism</a><br><a href="javascript:top.Glossary('Moses')" class="redroll">Moses</a><br><a href="javascript:top.Glossary('Exodus')" class="redroll">Exodus</a><br><a href="javascript:top.Glossary('Ten Commandments')" class="redroll">Ten Commandments</a></div> 
+
+								<div>
+
+									<a href="javascript:top.Glossary('')" class="redroll">eGlossary</a>
+
+								</div>
+
+							</td>
+
+							<td width="4" background="../../common/graphics/features/lozenge/right.gif" style="background-repeat:repeat-y"></td>
+
+						</tr>
+
+						<tr valign="top">
+
+							<td colspan="3"><img src="../../common/graphics/features/lozenge/bottom.gif" border="0" width="153" height="16"></td>
+
+						</tr>
+
+					</table>
+
+
+
+<!--end vocabulary lozenge-->
+
+
+
+<!--start map lozenge-->
+
+
+
+					<table width="153" border="0" cellspacing="0" cellpadding="0" class="lozenge">
+
+						<tr valign="bottom">
+
+							<td colspan="3"><img src="../../common/graphics/features/titles/interactivemap.gif" width="153" height="47" alt="Interactive Maps"></td>
+
+						</tr>
+
+						<tr align="center" valign="middle">
+
+							<td width="14" background="../../common/graphics/features/lozenge/left.gif" style="background-repeat:repeat-y"></td>
+
+							<td width="135" class="features_cell imap">
+
+								<div class="features_cluster"><a href="javascript:top.InteractiveMap('AC_10_321_swasia', 'l')" class="redroll">Southwest Asia, 700-600 B.C.
+
+</a></div><div class="features_cluster"><a href="javascript:top.InteractiveMap('AC_10_345_diaspora', 'l')" class="redroll">Jewish Diaspora, A.D. 70-500
+
+</a></div> 
+
+								<div>
+
+									<a href="javascript:InteractiveMaps('')" class="redroll">All maps</a>
+
+								</div>
+
+							</td>
+
+							<td width="4" background="../../common/graphics/features/lozenge/right.gif" style="background-repeat:repeat-y"></td>
+
+						</tr>
+
+						<tr valign="top">
+
+							<td colspan="3"><img src="../../common/graphics/features/lozenge/bottom.gif" width="153" height="16"></td>
+
+						</tr>
+
+					</table>
+
+
+
+<!--end map lozenge-->
+
+
+
+<!--start homework lozenge-->
+
+
+
+					<table width="153" border="0" cellspacing="0" cellpadding="0" class="lozenge">
+
+						<tr valign="bottom">
+
+							<td colspan="3"><img src="../../common/graphics/features/titles/homework.gif" border="0" width="153" height="38" alt="Homework"></td>
+
+						</tr>
+
+						<tr align="center" valign="middle">
+
+							<td width="14" background="../../common/graphics/features/lozenge/left.gif" style="background-repeat:repeat-y"></td>
+
+							<td width="135" class="features_cell">
+
+								<div class="homework_entry"><a href="javascript:top.HomeworkPage('ST60-CA7B-0010-01SS-1')" class="redroll">Reading Skill and Strategy</a></div>
+
+<div class="homework_entry" style="padding-bottom: 0px;"><a href="javascript:top.HomeworkPage('ST60-CA7B-0010-00VS-1')" class="redroll">Vocabulary Study Guide</a></div>
+
+ 
+
+							</td>
+
+							<td width="4" background="../../common/graphics/features/lozenge/right.gif" style="background-repeat:repeat-y"></td>
+
+						</tr>
+
+						<tr valign="top">
+
+							<td colspan="3"><img src="../../common/graphics/features/lozenge/bottom.gif" border="0"width="153" height="16"></td>
+
+						</tr>
+
+					</table>
+
+
+
+<!--end homework lozenge-->
+
+
+
+					<a href="javascript:EPLink()"><img src="../../common/graphics/nav/buttons/eduplace.gif" name="eduplace" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="152" height="37" border="0" alt="Education Place" style="margin-left: 4px; margin-bottom: 10px;"></a>
+
+					<a href="javascript:top.Help()"><img src="../../common/graphics/nav/buttons/help.gif" name="help" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="48" height="76" border="0" alt="Help" style="margin-left: 2px;"></a>
+
+					<div>
+
+						<img src="../../common/graphics/features/spacers/171.gif" border="0" width="171" height="1">
+
+					</div>
+
+				</td>
+
+				
+
+<!--end features bar-->
+
+
+
+<!--start content area-->
+
+
+
+				<td bgcolor="white" valign="top">
+
+					<table width="100%" border="0" cellspacing="0" cellpadding="5">
+
+						<tr>
+
+							<td height="42" bgcolor="#1822CD" valign="center">
+
+								<p class="pagetitle">Chapter 10, Lesson 1&nbsp;&#151;&nbsp;page 327</p>
+
+							</td>
+
+						</tr>
+
+						<tr>
+
+							<td>
+
+								<div class="noprint" style="padding-left: 7px;">
+
+
+
+<script language="javascript">
+
+
+
+	var pagepath = '../pagegraphics/' + size + '/' + pagegraphic;
+
+	document.write('<img src="' + pagepath + '" ');
+
+	document.write('name="pageimage" alt="Page Image" border="1" vspace="8" hspace="0" ');
+
+	document.write('style="width: ' + xpagesize[size-1] + '; height: ' + ypagesize[size-1] + ';">');
+
+
+
+</script>
+
+			
+
+								</div>
+
+								<div class="onlyprint">
+
+									To print a page, click the <b>Print page</b> button. If this button is not active, the page cannot be printed. 
+
+								</div>
+
+								<div>
+
+									<table>
+
+										<tr>
+
+											<td nowrap>
+
+
+
+<script language="javascript">
+
+
+
+	if ((!tocPage) && (top.GetAudioOn())) {
+
+		for (var spreadTrack=1; spreadTrack <= 29; spreadTrack++) {
+
+			var displayImage = false;
+
+			if (top.BUTTONSDRAGABLE) {
+
+				displayImage = true;
+
+				if (audioButtonsNumbered) {
+
+					imgSrc = '../../common/graphics/audio/audioTrack' + spreadTrack + '.gif';
+
+				} 
+
+				else {
+
+					imgSrc = '../../common/graphics/audio/audioTrackX.gif';
+
+				} 
+
+			}
+
+			else {
+
+				var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+				if (pageTrack) {
+
+					displayImage = true;
+
+					if (audioButtonsNumbered) {
+
+						imgSrc = '../../common/graphics/audio/audioTrack' + pageTrack + '.gif';
+
+					} 
+
+					else {
+
+						imgSrc = '../../common/graphics/audio/audioTrackX.gif';
+
+					} 
+
+				}
+
+			}
+
+			
+
+			if (displayImage) {
+
+				if (!top.BUTTONSDRAGABLE) {
+
+					document.write('<a href="javascript:ToggleSpreadTrack('+ spreadTrack +')">');
+
+				}
+
+				
+
+				document.write('<img src="' + imgSrc + '" '); 
+
+				document.write('width="38" height="23" border="0" class="drag" ');
+
+				document.write('id="audio' + spreadTrack + '" alt="Read Aloud" ');
+
+				document.write('name="audio' + spreadTrack + '" ');
+
+				document.write('style="position: relative; top: 0px; left: 0px;" ');
+
+				
+
+				//this thinking removed so that refreshButtonPositions() does all the placement
+
+				//document.write("top: " + adjustForPage(yarray[spreadTrack-1]) + "; ");
+
+				//document.write("left: " + ((xarray[spreadTrack-1] * sizeModArray[size-1]) - (buttonsPlaced * 38)) + ";' ");
+
+				
+
+				if (top.BUTTONSDRAGABLE) {
+
+					document.write('onclick="ToggleSpreadTrack(' + spreadTrack + ')" ');
+
+				}
+
+				//document.write("onclick='ToggleSpreadTrack(" + spreadTrack + ")' ");
+
+				
+
+				document.write('>');
+
+				
+
+				if (!top.BUTTONSDRAGABLE) {
+
+					document.write('<\/a>');
+
+				}
+
+			}			
+
+		}
+
+		refreshButtonPositions();
+
+	} // if (!tocPage)
+
+	
+
+</script> 
+
+
+
+											</td>
+
+										</tr>
+
+									</table>
+
+								</div>
+
+								<div class="permissions">
+
+								
+
+<script language="javascript">
+
+
+
+	var returnCode = writePermissions('SP60-CA7B-NHN-327');
+
+	if (returnCode) {document.write(returnCode);}
+
+
+
+</script> 
+
+
+
+								</div>
+
+							</td>
+
+						</tr>
+
+					</table>
+
+				</td>
+
+			</tr>
+
+		</table>
+
+
+
+<!--end content area-->
+
+
+
+<!--start copyrightbar-->
+
+
+
+		<table width="100%" height="10%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C6ECF6">
+
+			<tr>
+
+				<td class="copyright_bar">
+
+					&copy; Houghton Mifflin Company. All rights reserved. With the exception of designated printable pages, no part of this work may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying or recording, or by any information storage or retrieval system without the prior written permission of Houghton Mifflin Company unless such copying is expressly permitted by federal copyright law. 
+
+				</td>
+
+			</tr>
+
+		</table>
+
+		
+
+<!--end copyrightbar-->
+
+
+
+<!--start button placement-->
+
+
+
+<script language="javascript">
+
+	
+
+	if (top.BUTTONSDRAGABLE == 10) {
+
+		document.write('<div style="padding: 15px;"><a href="javascript:getAverage()">average buttons<\/a> | ');
+
+		document.write('<a href="javascript:submitLocationText(false)">submit revised buttons<\/a> | ');
+
+		document.write('<a href="javascript:submitLocationText(true)">submit a "stet"<\/a> | ');
+
+		document.write('<a href="javascript:turnOffButtonsDragable()">turn this area off"<\/a>');
+
+	
+
+		document.write('<form target="_blank" method="post" action="http://dev.eduplace.com/cgi-bin/ebook_audio_buttons_update.cgi" name="audio">');
+
+		document.write('<input type="hidden" name="EBOOK" value="6"><\/td>');
+
+		document.write('<textarea id="BUTTON_INFO" name="BUTTON_INFO" rows="10" cols="100"><\/textarea><\/form><\/div>');
+
+	}
+
+	else {
+
+		if (top.BUTTONSDRAGABLE) {
+
+			document.write('<p><button onclick="getAverage();">Average<\/button><\/p>');
+
+			document.write('<p><a href="javascript:printLocationText()">update location codes<\/a> | <a href="javascript:clearLocationText()">clear location codes<\/a><\/p>');
+
+			document.write('<textarea id="BUTTON_INFO" rows="10" cols="100"><\/textarea>');
+
+		}
+
+	}
+
+	
+
+</script> 
+
+
+
+<!--end button placement-->
+
+
+
+	</body>
+
+</html>

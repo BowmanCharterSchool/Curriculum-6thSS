@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="smelting">
+    <pronunciation>
+        <voicing src="g6C-smelting.mp3">smelting</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The heating and melting of certain rocks to separate the metals they contain. (p.&nbsp;192)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="fundición">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Calentamiento y fundición de ciertas rocas para separar los metales que contienen. (pág.&nbsp;192)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

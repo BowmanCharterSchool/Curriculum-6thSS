@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="religion">
+    <pronunciation>
+        <voicing src="g6C-religion.mp3">religion</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The worship of a god, gods, or spirits. (p.&nbsp;54)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="religión">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Veneración de un dios, dioses o espíritus. (pág.&nbsp;54)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

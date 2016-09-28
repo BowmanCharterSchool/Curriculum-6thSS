@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="glyph">
+    <pronunciation>
+        <voicing src="g6C-glyph.mp3">glyph</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A symbol, usually carved or engraved, that represents a syllable or a whole word. (p.&nbsp;310)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="glifo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Símbolo, generalmente esculpido o grabado, que representa una silaba o una palabra entera. (pág.&nbsp;310)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

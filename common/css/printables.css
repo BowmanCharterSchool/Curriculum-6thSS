@@ -1,0 +1,1 @@
+.noprint 	{ 	display: none; 	}	.onlyprint 	{ 	display: block;	}	.pageimage 	{ 	margin: 0px; 	}.box_resource_top	{	display: none;	}	.box_resource_bottom	{	display: none;	}	.blackline	{	border: solid;	border-width: 1px; 	border-color: black;	border-style: solid;	}.doprint	{	display: block;	}

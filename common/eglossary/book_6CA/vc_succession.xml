@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="succession">
+    <pronunciation>
+        <voicing src="g6C-succession.mp3">succession</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The order in which members of a royal family inherit a throne or title. (p.&nbsp;165)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="sucesión">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Orden en el cual los miembros de una familia real heredan un trono o título. (pág.&nbsp;165)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

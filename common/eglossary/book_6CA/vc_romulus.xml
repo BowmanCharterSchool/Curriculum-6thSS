@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Romulus">
+    <pronunciation>
+        <voicing src="g6C-romulus.mp3">Romulus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A legendary hero, descended from Aeneas, who is said to have founded Rome. (p.&nbsp;431)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Rómulo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Héroe legendario, descendiente de Eneas, que fue fundador de Roma. (pág.&nbsp;431)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Babylonian Captivity">
+    <pronunciation>
+        <voicing src="g6C-babylonian.mp3">Babylonian Captivity</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A 50-year period in which the Israelites were held in Babylon, away from their homeland of Judah. During this period, the Israelites became known as Jews. (p.&nbsp;338)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="cautividad babilónica">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Período de 50 años durante el cual los israelitas fueron retenidos en Babilonia, lejos de su patria de Judea. Fue durante ese período que los israelitas comenzaron a ser llamados judíos. (pág.&nbsp;338)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

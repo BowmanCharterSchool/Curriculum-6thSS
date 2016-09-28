@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Justinian Code">
+    <pronunciation>
+        <voicing src="g6C-justinian_.mp3">Justinian Code</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A revised code of Roman law— including laws dealing with marriage, slavery, property ownership, women’s rights, and criminal justice—prepared at the order of the Byzantine emperor Justinian. (p.&nbsp;510)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Código Justiniano">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Código revisado de leyes romanas (incluyendo leyes relativas al matrimonio, esclavitud, posesión de propiedad, derechos de la mujer y justicia criminal) preparado por orden del emperador bizantino Justiniano. (pág.&nbsp;510)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

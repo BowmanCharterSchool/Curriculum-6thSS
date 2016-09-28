@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Nubia">
+    <pronunciation>
+        <voicing src="g6C-nubia.mp3">Nubia</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient region of Africa, which extended from the southern border of Egypt through what is now Sudan. (p.&nbsp;189)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Nubia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua región de África, que se extiende desde la frontera sur de Egipto hasta lo que hoy es Sudán. (pág.&nbsp;189)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

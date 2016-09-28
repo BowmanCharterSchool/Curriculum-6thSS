@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="hunter-gatherer">
+    <pronunciation>
+        <voicing src="g6C-hunter-gat.mp3">hunter-gatherer</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A human being who hunts animals and gathers plants for food, moving to a different location whenever such food becomes scarce. (p.&nbsp;51)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="cazador-recolector">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ser humano que caza animales y recolecta plantas como alimento, y que cambia de lugar cada vez que su comida escasea. (pág.&nbsp;51)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Colosseum">
+    <pronunciation>
+        <voicing src="g6C-colosseum.mp3">Colosseum</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A large arena in Rome, where the ancient Romans attended entertainments, such as battles of gladiators. (p.&nbsp;458)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Coliseo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Extensa arena de Roma, donde los antiguos romanos presenciaban espectáculos tales como batallas de gladiadores. (pág.&nbsp;458)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

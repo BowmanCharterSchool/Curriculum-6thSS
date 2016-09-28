@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Yucatán Peninsula">
+    <pronunciation>
+        <voicing src="g6C-yucatn_pen.mp3">Yucatán Peninsula</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An area of dense jungle in southeastern Mexico, extending into the Gulf of Mexico and the Caribbean Sea. (p.&nbsp;292)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="península de Yucatán">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Zona de selva densa en el sudeste mexicano, que se extiende hacia el golfo de México y el mar Caribe. (pág.&nbsp;292)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="barracks">
+    <pronunciation>
+        <voicing src="g6C-barracks.mp3">barracks</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A group of buildings used to house soldiers. (p.&nbsp;380)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="barraca">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Grupo de edificios utilizados para albergar soldados. (pág.&nbsp;380)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

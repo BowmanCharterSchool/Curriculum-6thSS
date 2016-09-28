@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="empire">
+    <pronunciation>
+        <voicing src="g6C-empire.mp3">empire</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A group of territories and peoples brought together under one supreme ruler. (p.&nbsp;113)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="imperio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Grupo de territorios y habitantes gobernados por un soberano supremo. (pág.&nbsp;113)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

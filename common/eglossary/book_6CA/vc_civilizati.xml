@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="civilization">
+    <pronunciation>
+        <voicing src="g6C-civilizati.mp3">civilization</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A human society with an advanced level of development in social and political organization and in the arts and sciences. (p.&nbsp;89)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="civilización">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Sociedad humana con un nivel avanzado de desarrollo en la organización social y política, así como en las artes y ciencias. (pág.&nbsp;89)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

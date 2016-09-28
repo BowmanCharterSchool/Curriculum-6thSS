@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hammurabi">
+    <pronunciation>
+        <voicing src="g6C-hammurabi.mp3">Hammurabi</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The ruler of the Babylonian Empire from 1792 to 1750 B.C., who expanded the empire. (p.&nbsp;114)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Hammurabi">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rey del imperio babilónico desde 1792 hasta 1750 a.C., que contribuyó a la expansión de su imperio. (pág.&nbsp;114)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

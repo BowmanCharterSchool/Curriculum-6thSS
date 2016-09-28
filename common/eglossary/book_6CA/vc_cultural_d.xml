@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="cultural diffusion">
+    <pronunciation>
+        <voicing src="g6C-cultural_d.mp3">cultural diffusion</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The spread of ethnic ideas and customs to other areas of the world. (p.&nbsp;277)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="difusión cultural">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Propagación de ideas y costumbres étnicas hacia otras áreas del mundo. (pág.&nbsp;277)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

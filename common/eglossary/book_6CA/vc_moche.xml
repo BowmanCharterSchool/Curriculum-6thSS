@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Moche">
+    <pronunciation>
+        <voicing src="g6C-moche.mp3">Moche</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient culture that inhabited what is now the northern coast of Peru between A.D. 100 and 700. (p.&nbsp;298)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Moche">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua cultura que habitó en lo que hoy es la costa norte del Perú entre los años 100 y 700 d.C. (pág.&nbsp;298)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

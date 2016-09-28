@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="specialization">
+    <pronunciation>
+        <voicing src="g6C-specializa.mp3">specialization</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A skill in one type of work. (p.&nbsp;66)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="especialización">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Habilidad para un tipo de trabajo. (pág.&nbsp;66)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="consul">
+    <pronunciation>
+        <voicing src="g6C-consul.mp3">consul</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of a pair of elected officials who headed ancient Rome’s executive branch and commanded the army. (p.&nbsp;438)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="cónsul">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Uno de los dos funcionarios electos a cargo del poder ejecutivo de la antigua Roma, que además comandaban el ejército. (pág.&nbsp;438)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

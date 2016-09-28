@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="toleration">
+    <pronunciation>
+        <voicing src="g6C-toleration.mp3">toleration</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The practice of allowing people to keep their customs and beliefs. (p.&nbsp;131)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tolerancia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Práctica de dejar que los demás vivan según sus costumbres y creencias. (pág.&nbsp;131)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

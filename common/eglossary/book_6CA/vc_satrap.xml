@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="satrap">
+    <pronunciation>
+        <voicing src="g6C-satrap.mp3">satrap</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The governor of a province in the ancient Persian Empire. (p.&nbsp;132)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="sátrapa">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Gobernador de una provincia en el antiguo imperio persa. (pág.&nbsp;132)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

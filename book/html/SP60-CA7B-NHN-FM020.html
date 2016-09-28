@@ -1,0 +1,1269 @@
+<!-- saved from url=(0014)about:internet -->
+
+<html>
+
+	<head>
+
+		<title>
+
+			eHistory-Social Science Book 
+
+		</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+		<link rel="stylesheet" href="../../common/css/SS.css">
+
+		<link rel="stylesheet" href="../../common/css/printables.css" media="print">
+
+		<link rel="stylesheet" href="../../common/css/grade6_toc.css" type="text/css">
+
+		<script language="javascript" src="../js/permissions.js"></script>
+
+		<script language="javascript" src="../../common/js/client_functionality.js"></script>
+
+		<script language="javascript" src="../../common/js/drag_script.js"></script>
+
+
+
+<script language="javascript">
+
+	
+
+	//turn off buttons (only nec. in TOC)
+
+	if (!top.GetAudioOn()) {document.write('<style type="text/css">.drag {display: none;}<\/style>');} 
+
+
+
+	var tocPage = true; //*DO NOT CHANGE THIS LINE*
+
+	var audioButtonsNumbered = false;; //*DO NOT CHANGE THIS LINE*
+
+
+
+	//PageInfo Variables
+
+	var prevPage = 1;
+
+	var nextPage = 1;
+
+	var largerPage = -1;
+
+	var smallerPage = -1;
+
+	var printPage = -1;
+
+	var bothPages = -1;
+
+	var leftPageType = "gif";
+
+	var rightPageType = "gif";
+
+	var pagegraphic = "SP60-CA7B-NHN-FM020.gif";
+
+
+
+	//Set page sizes
+
+	//FILL_PAGESIZE_ARRAY_START *DO NOT CHANGE THIS LINE*
+
+	var xpagesize = new Array(355, 570, 735, 1100);
+
+	var ypagesize = new Array(468, 751, 969, 1450);
+
+	//FILL_PAGESIZE_ARRAY_END
+
+
+
+	var size = top.GetPageSize();
+
+
+
+	//set percentage offsets for different page sizes
+
+	var sizeModArray = new Array(.6242, 1, 1.2895, 1.9283);
+
+
+
+	//Set position of audio buttons
+
+	var xarray = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+	var yarray = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+
+
+
+	//set trackArray
+
+	var trackArray = new Array('1');
+
+
+
+	//set state-specific audio (grade 3 only)
+
+	var stateSpecificAudio = false; 
+
+
+
+	if (trackArray.length == 0)	{
+
+		for (var i=1; i <= 28; i++)	{
+
+			if (top.BUTTONSDRAGABLE) {
+
+				//trackArray.push(i);
+
+				trackArray[i-1] = i;
+
+			}
+
+			else {
+
+				if (yarray[i-1] < 0) { 
+
+					//trackArray.push(i);
+
+					trackArray[trackArray.length] = i;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+	
+
+	function SetPageInfo() {
+
+
+
+		//nextPage, prevPage -1 is disabled, 1 is enabled
+
+		//largerPage, smallerPage -1 is disabled, 1 is enabled
+
+		//bothPages, -1 is disabled, 1 is enabled, 2 is lit
+
+		//printPage, -1 is disabled, 1 is enabled
+
+
+
+		top.SetPageInfo(
+
+			prevPage, // prevPage
+
+			nextPage,  // nextPage
+
+			largerPage, // largerPage
+
+			smallerPage,  // smallerPage
+
+			bothPages,	// bothPages
+
+			printPage,	// printPage
+
+			trackArray,	// audio tracks -> now: trackArray
+
+			stateSpecificAudio, // stateSpecificAudio
+
+			leftPageType,
+
+			rightPageType
+
+		);
+
+
+
+	} // SetPageInfo
+
+
+
+
+
+	function EPLink() {
+
+
+
+		if (document["eduplace"].src.indexOf("-disabled") < 0) {
+
+			top.EPLink();
+
+		} else {
+
+			alert (getGlobalText("GT012"));
+
+		}
+
+
+
+	} // EPLink
+
+
+
+
+
+	function InteractiveMap(mapCode, localRemote) {
+
+
+
+		top.InteractiveMap(mapCode, localRemote);
+
+
+
+	} // InteractiveMap
+
+
+
+
+
+	function InteractiveMaps() {
+
+
+
+		top.InteractiveMap('all');
+
+
+
+	} // InteractiveMaps
+
+
+
+
+
+	function adjustForPage(shift) {
+
+	
+
+		var shiftconstant = 9; //23
+
+		shift = shift + shiftconstant;
+
+		shift = (shift * sizeModArray[size-1]);
+
+		shift = shift - shiftconstant;
+
+		return shift;
+
+	}
+
+
+
+
+
+	function refreshButtonPositions() {
+
+		
+
+		if (!top.GetAudioOn()) {
+
+			return true;
+
+		}
+
+		var buttonsPlaced = 0;
+
+
+
+		for (var i=1; i <= yarray.length; i++) {
+
+			if ((yarray[i-1] < 0) || (top.BUTTONSDRAGABLE)) {
+
+				var image = document.getElementById("audio" + i);
+
+				var ypos = adjustForPage(yarray[i-1] + 11.5) - 11.5;
+
+		
+
+				//var ypos = yarray[i-1];
+
+				//ypos = ypos + 11.5;
+
+				//var ypos = adjustForPage(ypos);
+
+				//ypos = ypos - 11.5;
+
+				image.style.top = ypos + 'px';
+
+			
+
+				//image.style.top = adjustForPage(yarray[i-1]);
+
+		
+
+				if (yarray[i-1] != 0) {
+
+					var xpos = xarray[i-1];
+
+					xpos = xpos + 19;
+
+					xpos = xpos * sizeModArray[size-1];
+
+					if (top.BUTTONSDRAGABLE) { 
+
+						xpos = xpos - ((i-1) * 38);
+
+					}
+
+					else { 
+
+						xpos = xpos - (buttonsPlaced * 38); 
+
+					}
+
+					
+
+					xpos = xpos - 19;
+
+					image.style.left = xpos + 'px';
+
+				
+
+					//Lines to use if you don't want to "center" the zooming
+
+					//image.style.left = ((xarray[i-1] * sizeModArray[size-1]) - ((i-1) * 38));
+
+					//image.style.left = ((xarray[i-1] * sizeModArray[size-1]) - (buttonsPlaced * 38));
+
+					
+
+					buttonsPlaced++;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+	
+
+	function ChangePageSize(newSize) {
+
+
+
+		size = newSize;
+
+
+
+		// change src to a white image
+
+		// solves an occasional "ghost" remnant when you size down a page.
+
+		// separate this and the next src change as much as possible 
+
+		document["pageimage"].src = "../../common/graphics/misc/whitedot.gif";
+
+		
+
+		//update height and width styles
+
+		document["pageimage"].style.width = xpagesize[size-1];
+
+		document["pageimage"].style.height = ypagesize[size-1];
+
+		
+
+		refreshButtonPositions();
+
+		
+
+		// update pageimage
+
+		var pagepath = "../../book/pagegraphics/" + size + "/" + pagegraphic;
+
+		document["pageimage"].src = pagepath;
+
+
+
+	
+
+	}  // ChangePageSize
+
+
+
+
+
+	function toggleList(elt) {
+
+		//alert(elt.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.tagName);
+
+		if (elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display == "none") {
+
+			elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display = "";
+
+			elt.src = "../../common/graphics/toc/dingbats/minus.gif";
+
+		}
+
+		else {
+
+			elt.parentNode.parentNode.parentNode.parentNode.parentNode.nextSibling.nextSibling.style.display = "none"
+
+			elt.src = "../../common/graphics/toc/dingbats/plus.gif";
+
+		}
+
+	}
+
+
+
+
+
+	function spreadTrack2PageTrack(spreadTrack) {
+
+		
+
+		var pageTrack = 0;
+
+		for (var j=0; j<=trackArray.length; j++) {
+
+			if (spreadTrack == trackArray[j]) {
+
+				pageTrack = j + 1;
+
+				break;
+
+			}
+
+		}
+
+		return pageTrack;
+
+	}
+
+
+
+
+
+	function ToggleSpreadTrack(spreadTrack) {
+
+	
+
+		if (top.GetAudioOn()) {
+
+			var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+			if (document["audio" + spreadTrack].src.indexOf("-active") == -1) {
+
+				for (otherPageTrack=1; otherPageTrack<=trackArray.length; otherPageTrack++) {
+
+					if (audioButtonsNumbered) {
+
+						var audioNumberLetter = otherPageTrack;
+
+					} 
+
+					else {
+
+						var audioNumberLetter = 'X';
+
+					}
+
+					document['audio' + trackArray[otherPageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+				}
+
+				top.PlayPageTrack(pageTrack);
+
+			}
+
+			else {
+
+				top.StopPageTrack(pageTrack);
+
+				var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+				if (audioButtonsNumbered) {
+
+					var audioNumberLetter = pageTrack;
+
+				}
+
+				else {
+
+					var audioNumberLetter = 'X';
+
+				}
+
+				document['audio' + spreadTrack].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+			}
+
+		}
+
+	}
+
+
+
+
+
+	function redden(table) {
+
+	
+
+		table.style.borderColor="red";
+
+	
+
+	}
+
+
+
+	function whitten(table) {
+
+		
+
+		table.style.borderColor="white";
+
+	
+
+	}
+
+
+
+	
+
+	function ActivatePageTrack(pageTrack) {
+
+	
+
+		if (audioButtonsNumbered) {
+
+			var audioNumberLetter = pageTrack;
+
+		}
+
+		else {
+
+			var audioNumberLetter = 'X';
+
+		}
+
+		document['audio' + trackArray[pageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + "-active.gif";
+
+
+
+	}
+
+
+
+
+
+	function DeactivatePageTrack(pageTrack) {
+
+		
+
+		if (audioButtonsNumbered) {var audioNumberLetter = pageTrack} else {var audioNumberLetter = 'X'}
+
+		if (trackArray.length > 0) { // added to ensure that only buttons that exist are stopped (swapped orange)
+
+			document['audio' + trackArray[pageTrack-1]].src = "../../common/graphics/audio/audioTrack" + audioNumberLetter + ".gif";
+
+		}
+
+	}
+
+
+
+</script> 
+
+	<head>
+
+	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:SetPageInfo();" tabindex="1">
+
+		<table width="100%" height="90%" border="0" cellspacing="0" cellpadding="0">
+
+			<tr class="nav_bar">
+
+
+
+<!--start features bar-->
+
+
+
+				<td width="171" bgcolor="#DFDFFE" class="features_bar" valign="top" align="center">
+
+					<a href="javascript:top.JumpTOC()" name="focus_after_read_aloud"><img src="../../common/graphics/nav/buttons/toc.gif" name="toc" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="132" height="28" border="0" alt="Contents" style="margin-left: 8px; margin-top: 17px; margin-bottom: 9px;"></a>
+
+
+
+<!--start vocabulary lozenge-->
+
+
+
+					<table width="153" border="0" cellspacing="0" cellpadding="0" class="lozenge">
+
+						<tr valign="bottom">
+
+							<td colspan="3"><img src="../../common/graphics/features/titles/vocabulary.gif" border="0" width="153" height="39" alt="Vocabulary"></td>
+
+						</tr>
+
+						<tr align="center" valign="middle">
+
+							<td width="14" background="../../common/graphics/features/lozenge/left.gif" style="background-repeat:repeat-y"></td>
+
+							<td width="135" class="features_cell">
+
+								 
+
+								<div>
+
+									<a href="javascript:top.Glossary('')" class="redroll">eGlossary</a>
+
+								</div>
+
+							</td>
+
+							<td width="4" background="../../common/graphics/features/lozenge/right.gif" style="background-repeat:repeat-y"></td>
+
+						</tr>
+
+						<tr valign="top">
+
+							<td colspan="3"><img src="../../common/graphics/features/lozenge/bottom.gif" border="0" width="153" height="16"></td>
+
+						</tr>
+
+					</table>
+
+
+
+<!--end vocabulary lozenge-->
+
+
+
+<!--start map lozenge-->
+
+
+
+					<table width="153" border="0" cellspacing="0" cellpadding="0" class="lozenge">
+
+						<tr valign="bottom">
+
+							<td colspan="3"><img src="../../common/graphics/features/titles/interactivemap.gif" width="153" height="47" alt="Interactive Maps"></td>
+
+						</tr>
+
+						<tr align="center" valign="middle">
+
+							<td width="14" background="../../common/graphics/features/lozenge/left.gif" style="background-repeat:repeat-y"></td>
+
+							<td width="135" class="features_cell imap">
+
+								 
+
+								<div>
+
+									<a href="javascript:InteractiveMaps('')" class="redroll">All maps</a>
+
+								</div>
+
+							</td>
+
+							<td width="4" background="../../common/graphics/features/lozenge/right.gif" style="background-repeat:repeat-y"></td>
+
+						</tr>
+
+						<tr valign="top">
+
+							<td colspan="3"><img src="../../common/graphics/features/lozenge/bottom.gif" width="153" height="16"></td>
+
+						</tr>
+
+					</table>
+
+
+
+<!--end map lozenge-->
+
+
+
+
+
+
+
+					<a href="javascript:EPLink()"><img src="../../common/graphics/nav/buttons/eduplace.gif" name="eduplace" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="152" height="37" border="0" alt="Education Place" style="margin-left: 4px; margin-bottom: 10px;"></a>
+
+					<a href="javascript:top.Help()"><img src="../../common/graphics/nav/buttons/help.gif" name="help" onmouseover="LightButton(this)" onmouseout="UnlightButton(this)" width="48" height="76" border="0" alt="Help" style="margin-left: 2px;"></a>
+
+					<div>
+
+						<img src="../../common/graphics/features/spacers/171.gif" border="0" width="171" height="1">
+
+					</div>
+
+				</td>
+
+				
+
+<!--end features bar-->
+
+
+
+<!--start content area-->
+
+
+
+				<td bgcolor="white" valign="top">
+
+					<table width="100%" border="0" cellspacing="0" cellpadding="5">
+
+						<tr>
+
+							<td height="42" bgcolor="#1822CD" valign="center">
+
+								<p class="pagetitle">Contents&nbsp;&#151;&nbsp;page xx</p>
+
+							</td>
+
+						</tr>
+
+						<tr>
+
+							<td>
+
+								
+
+				<table border="0" bordercolor="#000000" width="95%" cellspacing="0" cellpadding="0" class="noprint pagetable">
+
+					<tr>
+
+						<td background="../../common/graphics/toc/grade6/background/unit-background.gif" valign="top" height="76" width="100%" style="background-repeat:repeat-x">
+
+							<img src="../../common/graphics/toc/grade6/redflags/maps.gif" width="191" height="76" alt="Maps">
+
+						</td>
+
+					</tr>
+
+					<tr>
+
+						<td valign="top" height="700" style="padding: 20px;">
+
+							<div class="toc">
+
+								<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45"><a href="javascript:ToggleSpreadTrack(1)"><img src="../../common/graphics/audio/audioTrackX.gif" alt="Read Aloud" width="38" height="23" border="0" class="drag" id="audio1" name="audio1"></a></td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('283')" class="entry Ref-base"><tr><td align="left" valign="bottom">Climate Comparisons, China and North America</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('283')" class="toclink">283</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('285')" class="entry Ref-base"><tr><td align="left" valign="bottom">American Civilizations, 1200 B.C.&#8211;A.D. 900</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('285')" class="toclink">285</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('290')" class="entry Ref-base"><tr><td align="left" valign="bottom">Climates of North and South America</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('290')" class="toclink">290</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('291')" class="entry Ref-base"><tr><td align="left" valign="bottom">Andes Mountains</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('291')" class="toclink">291</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('292')" class="entry Ref-base"><tr><td align="left" valign="bottom">Meso-America</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('292')" class="toclink">292</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('296')" class="entry Ref-base"><tr><td align="left" valign="bottom">Chav&iacute;n, Nazca, and Moche Civilizations, 900 B.C.&#8211;A.D. 700</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('296')" class="toclink">296</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('301')" class="entry Ref-base"><tr><td align="left" valign="bottom">Olmec Civilization, 900 B.C.</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('301')" class="toclink">301</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('308')" class="entry Ref-base"><tr><td align="left" valign="bottom">Mayan Civilization, A.D. 250&#8211;900</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('308')" class="toclink">308</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('321')" class="entry Ref-base"><tr><td align="left" valign="bottom">Southwest Asia, 700&#8211;600 B.C.</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('321')" class="toclink">321</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('325')" class="entry Ref-base"><tr><td align="left" valign="bottom">Wanderings of Abraham, 1800 B.C.</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('325')" class="toclink">325</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('331')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Hebrew Exodus, c. 1250 B.C.</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('331')" class="toclink">331</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('337')" class="entry Ref-base"><tr><td align="left" valign="bottom">Kingdoms of Israel and Judah, 922 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('337')" class="toclink">337</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('345')" class="entry Ref-base"><tr><td align="left" valign="bottom">Jewish Diaspora, A.D.70&#8211;500</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('345')" class="toclink">345</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('351')" class="entry Ref-base"><tr><td align="left" valign="bottom">Greek Trade, 500 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('351')" class="toclink">351</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('356')" class="entry Ref-base"><tr><td align="left" valign="bottom">Greece: Land Use</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('356')" class="toclink">356</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('382')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Persian Wars, 490&#8211;479 B.C.</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('382')" class="toclink">382</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('387')" class="entry Ref-base"><tr><td align="left" valign="bottom">Greece: Relief</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('387')" class="toclink">387</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('389')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Greek City-States, 500 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('389')" class="toclink">389</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('401')" class="entry Ref-base"><tr><td align="left" valign="bottom">Peloponnesian War, 431&#8211;404 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('401')" class="toclink">401</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('407')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Empire of Alexander, 323 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('407')" class="toclink">407</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('427')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Roman Empire at Its Height, A.D. 117</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('427')" class="toclink">427</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('432')" class="entry Ref-base"><tr><td align="left" valign="bottom">Seven Hills of Rome, about A.D. 125</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('432')" class="toclink">432</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('440')" class="entry Ref-base"><tr><td align="left" valign="bottom">Punic Wars, 246&#8211;146 B.C</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('440')" class="toclink">440</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('448')" class="entry Ref-base"><tr><td align="left" valign="bottom">Trade in the Roman Empire, A.D. 200</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('448')" class="toclink">448</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('463')" class="entry Ref-base"><tr><td align="left" valign="bottom">Spread of Christianity in the Roman Empire, to A.D. 600</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('463')" class="toclink">463</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('468')" class="entry Ref-base"><tr><td align="left" valign="bottom">Sites in the Life of Jesus, about 4 B.C.&#8211;about A.D.29</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('468')" class="toclink">468</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('491')" class="entry Ref-base"><tr><td align="left" valign="bottom">The Division of the Roman Empire, A.D. 395</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('491')" class="toclink">491</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('503')" class="entry Ref-base"><tr><td align="left" valign="bottom">Invasions into the Roman Empire, A.D. 350&#8211;500</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('503')" class="toclink">503</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('511')" class="entry Ref-base"><tr><td align="left" valign="bottom">Byzantine Empire, A.D. 565</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('511')" class="toclink">511</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="Ref-base_table"><tr><td valign="center" valign="top" width="45">&nbsp;</td><td align="left" valign="top">
+
+  <table width="100%" cellpadding="0" cellspacing="0" style="border: 2px solid white;" onmouseover="redden(this)" onmouseout="whitten(this)" onclick="top.JumpPage('523')" class="entry Ref-base"><tr><td align="left" valign="bottom">Romance Languages in Europe Today</td><td align="right" valign="center" class="toclink"><a href="javascript:top.JumpPage('523')" class="toclink">523</a></td></tr></table>
+
+</td>
+
+</tr></table>
+
+
+
+						</td>
+
+					</tr>
+
+				</table><p>&nbsp;</p>
+
+				
+
+							</div>
+
+						</td>
+
+					</tr>
+
+				</table>
+
+								<div class="onlyprint">
+
+									To print a page, click the <b>Print page</b> button. If this button is not active, the page cannot be printed. 
+
+								</div>
+
+								<div>
+
+									<table>
+
+										<tr>
+
+											<td nowrap>
+
+
+
+<script language="javascript">
+
+
+
+	if ((!tocPage) && (top.GetAudioOn())) {
+
+		for (var spreadTrack=1; spreadTrack <= 29; spreadTrack++) {
+
+			var displayImage = false;
+
+			if (top.BUTTONSDRAGABLE) {
+
+				displayImage = true;
+
+				if (audioButtonsNumbered) {
+
+					imgSrc = '../../common/graphics/audio/audioTrack' + spreadTrack + '.gif';
+
+				} 
+
+				else {
+
+					imgSrc = '../../common/graphics/audio/audioTrackX.gif';
+
+				} 
+
+			}
+
+			else {
+
+				var pageTrack = spreadTrack2PageTrack(spreadTrack);
+
+				if (pageTrack) {
+
+					displayImage = true;
+
+					if (audioButtonsNumbered) {
+
+						imgSrc = '../../common/graphics/audio/audioTrack' + pageTrack + '.gif';
+
+					} 
+
+					else {
+
+						imgSrc = '../../common/graphics/audio/audioTrackX.gif';
+
+					} 
+
+				}
+
+			}
+
+			
+
+			if (displayImage) {
+
+				if (!top.BUTTONSDRAGABLE) {
+
+					document.write('<a href="javascript:ToggleSpreadTrack('+ spreadTrack +')">');
+
+				}
+
+				
+
+				document.write('<img src="' + imgSrc + '" '); 
+
+				document.write('width="38" height="23" border="0" class="drag" ');
+
+				document.write('id="audio' + spreadTrack + '" alt="Read Aloud" ');
+
+				document.write('name="audio' + spreadTrack + '" ');
+
+				document.write('style="position: relative; top: 0px; left: 0px;" ');
+
+				
+
+				//this thinking removed so that refreshButtonPositions() does all the placement
+
+				//document.write("top: " + adjustForPage(yarray[spreadTrack-1]) + "; ");
+
+				//document.write("left: " + ((xarray[spreadTrack-1] * sizeModArray[size-1]) - (buttonsPlaced * 38)) + ";' ");
+
+				
+
+				if (top.BUTTONSDRAGABLE) {
+
+					document.write('onclick="ToggleSpreadTrack(' + spreadTrack + ')" ');
+
+				}
+
+				//document.write("onclick='ToggleSpreadTrack(" + spreadTrack + ")' ");
+
+				
+
+				document.write('>');
+
+				
+
+				if (!top.BUTTONSDRAGABLE) {
+
+					document.write('<\/a>');
+
+				}
+
+			}			
+
+		}
+
+		refreshButtonPositions();
+
+	} // if (!tocPage)
+
+	
+
+</script> 
+
+
+
+											</td>
+
+										</tr>
+
+									</table>
+
+								</div>
+
+								<div class="permissions">
+
+								
+
+<script language="javascript">
+
+
+
+	var returnCode = writePermissions('SP60-CA7B-NHN-FM020');
+
+	if (returnCode) {document.write(returnCode);}
+
+
+
+</script> 
+
+
+
+								</div>
+
+							</td>
+
+						</tr>
+
+					</table>
+
+				</td>
+
+			</tr>
+
+		</table>
+
+
+
+<!--end content area-->
+
+
+
+<!--start copyrightbar-->
+
+
+
+		<table width="100%" height="10%" border="0" cellspacing="0" cellpadding="5" bgcolor="#C6ECF6">
+
+			<tr>
+
+				<td class="copyright_bar">
+
+					&copy; Houghton Mifflin Company. All rights reserved. With the exception of designated printable pages, no part of this work may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying or recording, or by any information storage or retrieval system without the prior written permission of Houghton Mifflin Company unless such copying is expressly permitted by federal copyright law. 
+
+				</td>
+
+			</tr>
+
+		</table>
+
+		
+
+<!--end copyrightbar-->
+
+
+
+<!--start button placement-->
+
+
+
+<script language="javascript">
+
+	
+
+	if (top.BUTTONSDRAGABLE == 10) {
+
+		document.write('<div style="padding: 15px;"><a href="javascript:getAverage()">average buttons<\/a> | ');
+
+		document.write('<a href="javascript:submitLocationText(false)">submit revised buttons<\/a> | ');
+
+		document.write('<a href="javascript:submitLocationText(true)">submit a "stet"<\/a> | ');
+
+		document.write('<a href="javascript:turnOffButtonsDragable()">turn this area off"<\/a>');
+
+	
+
+		document.write('<form target="_blank" method="post" action="http://dev.eduplace.com/cgi-bin/ebook_audio_buttons_update.cgi" name="audio">');
+
+		document.write('<input type="hidden" name="EBOOK" value="6"><\/td>');
+
+		document.write('<textarea id="BUTTON_INFO" name="BUTTON_INFO" rows="10" cols="100"><\/textarea><\/form><\/div>');
+
+	}
+
+	else {
+
+		if (top.BUTTONSDRAGABLE) {
+
+			document.write('<p><button onclick="getAverage();">Average<\/button><\/p>');
+
+			document.write('<p><a href="javascript:printLocationText()">update location codes<\/a> | <a href="javascript:clearLocationText()">clear location codes<\/a><\/p>');
+
+			document.write('<textarea id="BUTTON_INFO" rows="10" cols="100"><\/textarea>');
+
+		}
+
+	}
+
+	
+
+</script> 
+
+
+
+<!--end button placement-->
+
+
+
+	</body>
+
+</html>

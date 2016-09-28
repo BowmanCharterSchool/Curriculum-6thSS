@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="migration">
+    <pronunciation>
+        <voicing src="g6C-migration.mp3">migration</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A movement from one region or country to settle in another. (pp. 52, 206)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="migración">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Acción de mudarse de una región o país a otro. (págs. 52, 206)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

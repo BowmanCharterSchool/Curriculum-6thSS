@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="David">
+    <pronunciation>
+        <voicing src="g6C-david.mp3">David</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The king of the Israelites who won control of Jerusalem in 1000 B.C. (p.&nbsp;336)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="David">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rey de los israelitas que ganó el control de Jerusalén en el año 1000 a.C. (pág.&nbsp;336)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Brahmanism">
+    <pronunciation>
+        <voicing src="g6C-brahmanism.mp3">Brahmanism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The early religion of the Aryans in ancient India. (p.&nbsp;229)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Brahmanismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua religión de los arios en la antigua India. (pág.&nbsp;229)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

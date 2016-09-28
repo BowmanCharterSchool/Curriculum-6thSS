@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Olympus, Mount">
+    <pronunciation>
+        <voicing src="g6C-olympus_mo.mp3">Olympus, Mount</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The highest mountain in Greece—in Greek mythology, the home of the major gods and goddesses. (p.&nbsp;361)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Olimpo, Monte">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Montaña más alta de Grecia; en la mitología griega, hogar de los dioses y diosas más importantes. (pág.&nbsp;361)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

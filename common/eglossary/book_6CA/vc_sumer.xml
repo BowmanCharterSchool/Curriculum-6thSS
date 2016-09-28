@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Sumer">
+    <pronunciation>
+        <voicing src="g6C-sumer.mp3">Sumer</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient region of southern Mesopotamia, in which civilization arose around 3300 B.C. (p.&nbsp;89)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Sumeria">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua región del sur de la Mesopotamia, donde surgieron civilizaciones alrededor del año 3300 a.C. (pág.&nbsp;89)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

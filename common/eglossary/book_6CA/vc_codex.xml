@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="codex">
+    <pronunciation>
+        <voicing src="g6C-codex.mp3">codex</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A book of the type used by early Mesoamerican civilizations to record important historical events. (p.&nbsp;310)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="códice">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Libro que utilizaban las primitivas civilizaciones mesoamericanas para registrar acontecimientos históricos importantes. (pág.&nbsp;310)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

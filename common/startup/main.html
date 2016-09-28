@@ -1,0 +1,196 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+	<head>
+		<title>
+			eHistory-Social Science Book
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" href="../css/resources.css" type="text/css">
+
+<style type="text/css">
+.hideFromCSSCapable { display: none; }
+a.alwaysblue:visited { color: blue; }
+</style>
+
+<script language="JavaScript" src="../../book/js/grade.js"></script>
+<script language="JavaScript" src="../js/nav_functionality.js"></script>
+<script language="JavaScript" src="../js/client_functionality.js"></script>
+<script language="JavaScript">
+
+<!-- hide from old browsers
+
+// retrieve cookies if set, flag if no cookies
+STATE_NAME = cookieVal(COOKIE_EBOOK_STATE_NAME);
+STATE_ABBR = cookieVal(COOKIE_EBOOK_STATE_ABBR);
+
+//if (grade == 4) {
+//	STATE_ABBR = 'NA';
+//}
+
+if (!STATE_ABBR) {
+	NO_COOKIES = true;
+} else {
+	NO_COOKIES = false;
+}
+
+queryParams = getQueryParams();
+
+// if no name cookie, try the query
+if (!STATE_NAME) {
+	STATE_NAME = queryParams['sn'];
+}
+
+// if still no name set it to '', otherwise unencode it
+if (!STATE_NAME) {
+	STATE_NAME = '';
+} else {
+	STATE_NAME = STATE_NAME.replace(/\+/g, ' ');
+	STATE_NAME = unescape(STATE_NAME);
+}
+
+// if no abbr cookie, try the query, if that fails assign 'NA' as default
+if (!STATE_ABBR) {
+	STATE_ABBR = queryParams['s'];
+	if (!STATE_ABBR) {
+		STATE_ABBR = 'NA';
+	}
+}
+
+// set book state abbr
+if (STATE_ABBR == 'FL') {
+	STATE_ABBR = STATE_ABBR;
+} else {
+	STATE_ABBR = 'NA';
+}
+
+STATE_ABBR = 'CA';
+
+eBookPopupWindow = null;
+
+function PopupEBook() {
+
+	var TOCURL = '../frames/eb0-' + STATE_ABBR + '.html?s=' + STATE_ABBR;
+
+	// HACK -- to get grade 3 florida to work
+	//if ((grade.substr(0,1) == '3') && (STATE_ABBR == 'FL')) {
+	//	TOCURL = '../frames/eb_f2_F.html?s=FL'
+	//}
+
+	if (document.audioform.audioradio[0].checked) {
+		TOCURL = TOCURL + '&a=t';
+	}
+	else {
+		TOCURL = TOCURL + '&a=f';
+	}
+	eBookPopupWindow = popupWindow(TOCURL, POPUP_EBOOK_NAME, POPUP_EBOOK_WIDTH, POPUP_EBOOK_HEIGHT, POPUP_EBOOK_MIN_WIDTH, POPUP_EBOOK_MIN_HEIGHT, POPUP_CHROME_MINIMUM, POPUP_LOCATION_SCREEN);
+	
+}
+
+function CloseEBook() {
+	if (eBookPopupWindow && !eBookPopupWindow.closed) {
+		eBookPopupWindow.close();
+	}
+}
+
+function LightBook(ImageObject)
+{
+document[ImageObject.name].src = "../graphics/startup/bookcovers/" + ImageObject.name + "-lit.jpg";
+//alert(ImageObject.src);
+}
+
+function UnlightBook(ImageObject)
+{
+document[ImageObject.name].src = "../graphics/startup/bookcovers/" + ImageObject.name + ".jpg";
+}
+
+function radioChange(change)
+{
+document.audioform.audioradio[change].checked=true;
+CloseEBook();
+}
+
+//-->
+</script> 
+	</head>
+
+<body onUnload="CloseEBook()" bgcolor="#E8E49B" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="99%" cellpadding="0" border="0" cellspacing="0" bgcolor="white">
+<tr>
+	<td align="center" valign="center" colspan="3">
+	<img src="../graphics/startup/clickthebook.gif" alt="Click on the book cover to open." style="padding-top: 30px;">
+	<br>
+<script language="JavaScript">
+	<!--
+	document.write('<a href="javascript:PopupEBook()">');
+	var ActionString = 'onMouseOver="LightBook(this)" onMouseOut="UnlightBook(this)"';
+	var BookName = "G" + grade + STATE_ABBR;
+	document.write("<img src='../graphics/startup/bookcovers/" + BookName + ".jpg' alt='Your Book' name='" + BookName + "' " + ActionString + " border='0'>");
+	document.write("<\/a>");
+	//-->
+</script>
+<noscript>
+	<p><b>You must enable JavaScript to use the eHistory-Social Science Book.</b></p>
+	<p style="padding-left: 30px; padding-right: 30px;">
+	Consult your browser's help feature for information on how to enable JavaScript. 
+	If your browser does not support JavaScript see the eHistory-Social Science Book User Guide for supported browsers.
+	</p>
+</noscript>
+	<div class="hideFromCSSCapable">
+	<p><b>You must enable style sheets to view the eHistory-Social Science Book properly.</b></p>
+	<p>Consult your browser's help feature for information on how to enable style sheets.<br>
+	If your browser does not support style sheets see the eHistory-Social Science Book User Guide for supported browsers.</p>
+	</div>
+<script language="JavaScript">
+<!--
+if (NO_COOKIES) 
+	{document.write("<p style='padding-left: 30px; padding-right: 30px;'><i>Bookmark this page to bypass the license agreement and state-selection screen the next time you use the eHistory-Social Science Book.</i></p>");}
+//-->
+</script>
+</tr>
+<tr valign="bottom">
+	<td>
+		<table width="100%" class="box_resource_bottom" cellspacing="10">
+			<tr>
+				<td width="33%" align="left" valign="bottom">
+					Your state is&nbsp; <b> <script language="JavaScript">document.write(STATE_NAME)</script> </b> 
+					<br>
+					(&nbsp;<a href="state.html" class="alwaysblue">change state</a>&nbsp;) 
+				</td>
+				<td width="33%" align="center" valign="bottom">
+					<form method="post" action="" name="audioform">
+						<table border="0" cellspacing="0" cellpadding="0">
+							<tr valign="bottom">
+								<td align="center" valign="middle" colspan=2>
+									<a href="javascript:radioChange(0)" tabindex=-1> <img src="../graphics/startup/c_audio_on.gif" width="49" height="31" border=0 alt=""> </a> 
+								</td>
+								<td align="center" colspan=2>
+									<a href="javascript:radioChange(1)" tabindex=-1> <img src="../graphics/startup/c_audio_off.gif" width="49" height="31" border=0 alt=""> </a> 
+								</td>
+							</tr>
+							<tr valign="center" bgcolor="#E8E49B">
+								<td align="center" bgcolor="#E8E49B">
+									<input type="radio" name="audioradio" value="on" checked tabindex=-1> 
+								</td>
+								<td align="center">
+									<a href="javascript:radioChange(0)"> Audio on</a>&nbsp;&nbsp;&nbsp; 
+								</td>
+								<td align="center" bgcolor="#E8E49B">
+									<input type="radio" name="audioradio" value="off" tabindex=-1> 
+								</td>
+								<td align="center">
+									<a href="javascript:radioChange(1)"> Audio off</a> 
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+				<td width="33%" align="right" valign="bottom">
+					<a href="exit.html"> <img src="../graphics/nav/buttons/c_exit.gif" alt="exit" width="34" height="63" border="0" name="c_exit" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)" style="padding-right: 5px; padding-top: 5px;"> </a> 
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>

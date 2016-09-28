@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Peloponnesus">
+    <pronunciation>
+        <voicing src="g6C-peloponnes.mp3">Peloponnesus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A peninsula forming the southern part of Greece. (p.&nbsp;355)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Peloponeso">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Península que forma la parte sur de Grecia. (pág.&nbsp;355)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

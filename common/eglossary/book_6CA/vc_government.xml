@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="government">
+    <pronunciation>
+        <voicing src="g6C-government.mp3">government</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A system for creating order and providing leadership. (p.&nbsp;67)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value=" gobierno">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Sistema que sirve para crear orden y proporcionar liderazgo. (pág.&nbsp;67)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

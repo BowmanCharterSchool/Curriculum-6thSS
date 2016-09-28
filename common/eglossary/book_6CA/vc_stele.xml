@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="stele">
+    <pronunciation>
+        <voicing src="g6C-stele.mp3">stele</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A carved stone slab set upright in the ground, usually commemorating a person or event. (p.&nbsp;309)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="estela">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Losa esculpida de piedra clavada en el suelo, generalmente en conmemoración de una persona o acontecimiento. (pág.&nbsp;309)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

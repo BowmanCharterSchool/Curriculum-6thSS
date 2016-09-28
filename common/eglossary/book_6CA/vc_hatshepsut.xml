@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hatshepsut">
+    <pronunciation>
+        <voicing src="g6C-hatshepsut.mp3">Hatshepsut</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A female pharaoh of ancient Egypt, who initially ruled with her stepson but declared herself the only ruler in 1472 B.C. (p.&nbsp;173)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Hatshepsut">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Mujer faraón del antiguo Egipto, que al principio reinó junto con su hijastro pero que luego se declaró reina única en el año 1472 a.C. (pág.&nbsp;173)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

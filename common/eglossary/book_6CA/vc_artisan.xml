@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="artisan">
+    <pronunciation>
+        <voicing src="g6C-artisan.mp3">artisan</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person trained in a particular skill or craft. (p.&nbsp;67)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="artesano">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Trabajador especializado en un determinado arte u oficio. (pág.&nbsp;67)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

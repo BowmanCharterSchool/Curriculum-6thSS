@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Caesar, Julius">
+    <pronunciation>
+        <voicing src="g6C-caesar_jul.mp3">Caesar, Julius</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A Roman general and politician (100–44 B.C.) who received great support from Rome’s commoners and was given the right to rule for life in 44 B.C. He was assassinated the same year. (p.&nbsp;444)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="César, Julio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[General y político romano (100–44 a.C.) que obtuvo un gran apoyo de los plebeyos de Roma y recibió el derecho de gobernar de por vida en el año 44 a.C. Fue asesinado ese mismo año. (pág.&nbsp;444)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

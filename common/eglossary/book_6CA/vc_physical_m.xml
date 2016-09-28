@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="physical map">
+    <pronunciation>
+        <voicing src="g6C-physical_m.mp3">physical map</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A map showing landforms and bodies of water. (p.&nbsp;20)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mapa físico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Mapa que muestra relieves y masas de agua. (pág.&nbsp;20)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

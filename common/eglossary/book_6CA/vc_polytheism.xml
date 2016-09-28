@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="polytheism">
+    <pronunciation>
+        <voicing src="g6C-polytheism.mp3">polytheism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A belief in many gods or goddesses. (p.&nbsp;93)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="politeísmo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Creencia en muchos dioses o diosas. (pág.&nbsp;93)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

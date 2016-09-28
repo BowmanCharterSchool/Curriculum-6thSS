@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="stylus">
+    <pronunciation>
+        <voicing src="g6C-stylus.mp3">stylus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A sharpened reed used to press markings into clay tablets. (p.&nbsp;102)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="estilo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Punzón afilado utilizado para hacer marcas en lápidas de barro. (pág.&nbsp;102)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

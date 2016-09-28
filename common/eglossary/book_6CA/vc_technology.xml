@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="technology">
+    <pronunciation>
+        <voicing src="g6C-technology.mp3">technology</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[People’s application of knowledge, tools, and inventions to meet their needs. (p.&nbsp;53)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tecnología">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Aplicación del conocimiento, herramientas e invenciones del ser humano para satisfacer sus necesidades. (pág.&nbsp;53)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

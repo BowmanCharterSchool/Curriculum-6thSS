@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Diaspora">
+    <pronunciation>
+        <voicing src="g6C-diaspora.mp3">Diaspora</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The scattering of Jewish people after they were forced out of Judea by the Romans in A.D. 70. (p.&nbsp;345)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Diáspora">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Dispersión del pueblo judío después de ser expulsado de Judea por los romanos en el año 70 d.C. (pág.&nbsp;345)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

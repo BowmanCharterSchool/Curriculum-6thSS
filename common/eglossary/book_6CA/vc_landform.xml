@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="landform">
+    <pronunciation>
+        <voicing src="g6C-landform.mp3">landform</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A naturally formed feature of Earth’s land surface, such as an island, a mountain, or a plateau. (p.&nbsp;10)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="accidente geográfico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Característica natural de la superficie de la tierra, como una isla, montaña o meseta. (pág.&nbsp;10)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

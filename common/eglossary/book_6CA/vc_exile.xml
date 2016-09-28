@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="exile">
+    <pronunciation>
+        <voicing src="g6C-exile.mp3">exile</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Forced removal from one’s homeland. (p.&nbsp;120)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="exilio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Expulsión forzada de la patria. (pág.&nbsp;120)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

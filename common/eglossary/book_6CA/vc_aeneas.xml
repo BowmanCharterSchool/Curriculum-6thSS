@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Aeneas">
+    <pronunciation>
+        <voicing src="g6C-aeneas.mp3">Aeneas</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A hero of the Trojan War. (p.&nbsp;431)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Eneas">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Héroe de la guerra de Troya. (pág.&nbsp;431)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

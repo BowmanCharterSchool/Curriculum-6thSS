@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="animism">
+    <pronunciation>
+        <voicing src="g6C-animism.mp3">animism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The belief that spirits exist in animals, plants, other natural objects, and natural forces. (p.&nbsp;205)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="animismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Creencia de que los animales, plantas, otros objetos naturales y fuerzas naturales tienen espíritu. (pág.&nbsp;205)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

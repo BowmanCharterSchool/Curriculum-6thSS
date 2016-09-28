@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hellenistic">
+    <pronunciation>
+        <voicing src="g6C-hellenisti.mp3">Hellenistic</voicing>
+    </pronunciation>
+    <pos value="adj.">
+        <definition id="1">
+             <![CDATA[Relating to the blend of Greek, Persian, Egyptian, and Indian cultures that lasted from the death of Alexander the Great in 323 B.C. until Augustus became emperor of Rome in 27 B.C. (p.&nbsp;408)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="helénico">
+            <pos value="adj.">
+                <definition id="1">
+                     <![CDATA[Relativo a la mezcla de las culturas griega, persa, egipcia e india que duró desde la muerte de Alejandro Magno en el año 323 a.C. hasta que Augusto se transformó en emperador de Roma, en el año 27 a.C. (pág.&nbsp;408)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

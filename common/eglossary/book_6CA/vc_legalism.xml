@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="legalism">
+    <pronunciation>
+        <voicing src="g6C-legalism.mp3">legalism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The belief that a ruler should use the legal system to force people to obey laws. (p.&nbsp;259)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="legalismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Creencia de que un soberano debe utilizar el sistema legal para obligar a las personas a obedecer las leyes. (pág.&nbsp;259)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

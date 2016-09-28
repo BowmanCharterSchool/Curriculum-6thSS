@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Mandate of Heaven">
+    <pronunciation>
+        <voicing src="g6C-mandate_of.mp3">Mandate of Heaven</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient Chinese belief that a good ruler had the gods’ approval. (p.&nbsp;256)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Mandato del Cielo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua creencia china que postulaba que la autoridad real era producto de la aprobación divina. (pág.&nbsp;256)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

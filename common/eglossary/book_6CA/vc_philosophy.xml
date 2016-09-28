@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="philosophy">
+    <pronunciation>
+        <voicing src="g6C-philosophy.mp3">philosophy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An investigation of basic truths about the universe, based on logical reasoning. (pp. 259, 414)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="filosofía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Investigación de las verdades básicas del universo, basada en razonamiento lógico. (págs. 259, 414)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

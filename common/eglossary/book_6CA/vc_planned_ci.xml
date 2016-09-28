@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="planned city">
+    <pronunciation>
+        <voicing src="g6C-planned_ci.mp3">planned city</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A city that is built according to a set design. (p.&nbsp;221)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ciudad planificada">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudad construida según un diseño establecido. (pág.&nbsp;221)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

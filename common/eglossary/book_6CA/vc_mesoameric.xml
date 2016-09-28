@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Mesoamerica">
+    <pronunciation>
+        <voicing src="g6C-mesoameric.mp3">Mesoamerica</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A region that extends southeastward from central Mexico and includes the countries of Guatemala, El Salvador, and Belize and parts of Honduras and Nicaragua. (p.&nbsp;292)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Mesoamérica">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Región que se extiende hacia el sudeste desde México central y comprende países como Guatemala, El Salvador, Belice y parte de Honduras y Nicaragua. (pág.&nbsp;292)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

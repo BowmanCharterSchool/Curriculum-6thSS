@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="griot">
+    <pronunciation>
+        <voicing src="g6C-griot.mp3">griot</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An official storyteller in an ancient African civilization. (p.&nbsp;205)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="griot">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Narrador oficial en la civilización africana antigua. (pág.&nbsp;205)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

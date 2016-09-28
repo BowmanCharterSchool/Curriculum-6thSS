@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Alexander the Great">
+    <pronunciation>
+        <voicing src="g6C-alexander_.mp3">Alexander the Great</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A king of Macedonia from 336 to 323 B.C., who conquered parts of Asia and Egypt, spreading Greek culture throughout his empire. (p.&nbsp;407)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Alejandro Magno">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rey de Macedonia desde 336 hasta 323 a.C. que conquistó partes de Asia y Egipto y así propagó la cultura griega por todo su imperio. (pág.&nbsp;407)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

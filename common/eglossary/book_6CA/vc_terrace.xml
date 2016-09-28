@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="terrace">
+    <pronunciation>
+        <voicing src="g6C-terrace.mp3">terrace</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A leveled area on a hillside. (p.&nbsp;200)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="terraza">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Zona elevada en la ladera de una colina. (pág.&nbsp;200)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

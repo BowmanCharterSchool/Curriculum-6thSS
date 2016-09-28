@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hindu-Arabic numerals">
+    <pronunciation>
+        <voicing src="g6C-hindu-arab.mp3">Hindu-Arabic numerals</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The numerals used in the United States and western Europe, which originated in India. (p.&nbsp;242)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="números indo-arábigos">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Números utilizados en los Estados Unidos y Europa occidental, que tuvieron origen en la India. (pág.&nbsp;242)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

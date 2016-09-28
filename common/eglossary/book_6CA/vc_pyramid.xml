@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="pyramid">
+    <pronunciation>
+        <voicing src="g6C-pyramid.mp3">pyramid</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A structure with four triangular sides that meet at a point. (p.&nbsp;166)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="pirámide">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Estructura con cuatro lados triangulares que convergen en un punto. (pág.&nbsp;166)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

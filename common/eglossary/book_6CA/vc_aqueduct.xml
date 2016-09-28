@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="aqueduct">
+    <pronunciation>
+        <voicing src="g6C-aqueduct.mp3">aqueduct</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A pipe or channel that carries water from a distant source to a city. (pp. 457, 517)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="acueducto">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tubería o canal que transporta agua de una fuente distante a una zona poblada. (págs. 457, 517)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

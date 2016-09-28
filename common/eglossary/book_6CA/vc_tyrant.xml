@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="tyrant">
+    <pronunciation>
+        <voicing src="g6C-tyrant.mp3">tyrant</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A ruler who has taken power illegally and rules without restrictions. (p.&nbsp;373)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tirano">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Soberano que ha tomado el poder en forma ilegal y que gobierna sin restricciones. (pág.&nbsp;373)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

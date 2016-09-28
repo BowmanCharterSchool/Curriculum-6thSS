@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Trinity">
+    <pronunciation>
+        <voicing src="g6C-trinity.mp3">Trinity</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The union of three persons—Father, Son, and Holy Spirit—in one God. (p.&nbsp;486)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Trinidad">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Unión de tres personas (el Padre, el Hijo y el Espíritu Santo) en un solo Dios. (pág.&nbsp;486)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

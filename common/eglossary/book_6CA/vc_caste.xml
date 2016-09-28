@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="caste">
+    <pronunciation>
+        <voicing src="g6C-caste.mp3">caste</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A social class that a person belongs to by birth. (p.&nbsp;228)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="casta">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Clase social a la cual una persona pertenece desde el nacimiento. (pág.&nbsp;228)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

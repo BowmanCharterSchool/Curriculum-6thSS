@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="agriculture">
+    <pronunciation>
+        <voicing src="g6C-agricultur.mp3">agriculture</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The cultivation of soil to produce useful crops. (p.&nbsp;60)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="agricultura">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cultivo del suelo para producir cosechas útiles. (pág.&nbsp;60)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

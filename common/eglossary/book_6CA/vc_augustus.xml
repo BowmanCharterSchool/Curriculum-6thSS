@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Augustus">
+    <pronunciation>
+        <voicing src="g6C-augustus.mp3">Augustus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The first Roman emperor (originally named Octavian), who became emperor in 27 B.C. (p.&nbsp;446)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Augusto">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Primer emperador romano (originalmente llamado Octavio), que se convirtió en emperador en el año 27 a.C. (pág.&nbsp;446)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

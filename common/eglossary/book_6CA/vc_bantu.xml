@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Bantu">
+    <pronunciation>
+        <voicing src="g6C-bantu.mp3">Bantu</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A group of West African peoples that gradually migrated eastward and southward, bringing farming and herding to new regions. (p.&nbsp;206)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Bantúes">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Pueblo de África occidental que gradualmente emigró hacia el oriente y hacia el sur, llevando la agricultura y ganadería hacia nuevas regiones. (pág.&nbsp;206)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="truce">
+    <pronunciation>
+        <voicing src="g6C-truce.mp3">truce</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A temporary agreement to stop fighting. (p.&nbsp;401)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tregua">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Acuerdo temporal de detener una pelea. (pág.&nbsp;401)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

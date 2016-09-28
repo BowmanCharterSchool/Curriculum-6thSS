@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Peloponnesian War">
+    <pronunciation>
+        <voicing src="g6C-pelopo_war.mp3">Peloponnesian War</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A war between Athens and the Peloponnesian League, led by Sparta, which ended with a Spartan victory in 404 B.C. (p.&nbsp;400)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="guerra del Peloponeso">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Guerra entre Atenas y la Liga del Peloponeso, liderada por Esparta, que terminó con la victoria de Esparta en el año 404 a.C. (pág.&nbsp;400)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

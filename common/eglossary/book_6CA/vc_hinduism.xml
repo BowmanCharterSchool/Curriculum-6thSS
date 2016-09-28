@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hinduism">
+    <pronunciation>
+        <voicing src="g6C-hinduism.mp3">Hinduism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A religion and philosophy developed in ancient India, characterized by a belief in reincarnation and a supreme being who takes many forms. (p.&nbsp;229)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="hinduismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Religión y filosofía desarrollada en la antigua India, caracterizada por una creencia en la reencarnación y en un ser superior que puede tomar distintas formas. (pág.&nbsp;229)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

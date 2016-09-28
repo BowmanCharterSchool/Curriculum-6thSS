@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="ahimsa">
+    <pronunciation>
+        <voicing src="g6C-ahimsa.mp3">ahimsa</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Nonviolence. (p.&nbsp;233)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ahimsa">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[No-violencia. (pág.&nbsp;233)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

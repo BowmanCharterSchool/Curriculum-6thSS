@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="karma">
+    <pronunciation>
+        <voicing src="g6C-karma.mp3">karma</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[In Hindu belief, the sum of a person’s actions in this life, which determine his or her fate in the next life. (p.&nbsp;230)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="karma">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[En la creencia hindú, la suma de las acciones de una persona en esta vida, que determina su destino en su próxima vida. (pág.&nbsp;230)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Nok">
+    <pronunciation>
+        <voicing src="g6C-nok.mp3">Nok</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient African civilization in what is now southeastern Nigeria, noted for its manufacture of iron tools. (p.&nbsp;205)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Nok">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua civilización africana en lo que hoy es el sudeste de Nigeria, caracterizada por la fabricación de herramientas de hierro. (pág.&nbsp;205)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

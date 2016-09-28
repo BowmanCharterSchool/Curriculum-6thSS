@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="drought">
+    <pronunciation>
+        <voicing src="g6C-drought.mp3">drought</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A period of little rainfall, in which growing crops becomes difficult. (p.&nbsp;85)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="sequía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Período con poca lluvia, en el cual se hace difícil el cultivo. (pág.&nbsp;85)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

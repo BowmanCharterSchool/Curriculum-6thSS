@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="isthmus">
+    <pronunciation>
+        <voicing src="g6C-isthmus.mp3">isthmus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A narrow strip of land that connects two larger landmasses. (pp. 289, 355)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="istmo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Angosta lengua de tierra que conecta dos extensiones más grandes de tierra. (págs. 289, 355)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

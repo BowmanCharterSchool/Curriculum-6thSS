@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="helot">
+    <pronunciation>
+        <voicing src="g6C-helot.mp3">helot</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An agricultural slave in ancient Sparta. (p.&nbsp;379)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ilota">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Esclavo campesino en la antigua Esparta. (pág.&nbsp;379)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

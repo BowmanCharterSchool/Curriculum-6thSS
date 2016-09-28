@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Ezana">
+    <pronunciation>
+        <voicing src="g6C-ezana.mp3">Ezana</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A strong king of Aksum who came to power in A.D. 325, greatly expanded the kingdom, and made Christianity the official religion. (p.&nbsp;198)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Ezana">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Poderoso rey de Aksum, que asumió el poder en el año 325 d.C., expandió enormemente el reino y estableció el cristianismo como religión oficial. (pág.&nbsp;198)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

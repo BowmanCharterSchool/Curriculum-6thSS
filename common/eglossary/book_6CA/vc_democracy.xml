@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="democracy">
+    <pronunciation>
+        <voicing src="g6C-democracy.mp3">democracy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A government in which citizens make political decisions, either directly or through elected representatives. (p.&nbsp;375)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="democracia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Gobierno en el cual los ciudadanos toman las decisiones políticas, ya sea en forma directa o mediante representantes elegidos por el pueblo. (pág.&nbsp;375)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

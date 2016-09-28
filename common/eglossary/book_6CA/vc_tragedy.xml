@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="tragedy">
+    <pronunciation>
+        <voicing src="g6C-tragedy.mp3">tragedy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A form of serious drama that presents the downfall or ruin of the main character or characters. (p.&nbsp;412)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tragedia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Forma de teatro serio que representa la caída o la ruina del personaje o personajes principales. (pág.&nbsp;412)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

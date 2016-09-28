@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Gandhi, Mohandas">
+    <pronunciation>
+        <voicing src="g6C-gandhi_moh.mp3">Gandhi, Mohandas</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A leader who used nonviolence to oppose the British rule of India. (p.&nbsp;242)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Gandhi, Mahatma">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Líder que utilizó la no-violencia para oponerse al gobierno británico en la India. (pág.&nbsp;242)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

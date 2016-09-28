@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="ideal">
+    <pronunciation>
+        <voicing src="g6C-ideal.mp3">ideal</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A thing in its most perfect form. (p.&nbsp;412)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ideal">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Que se encuentra en su forma más perfecta. (pág.&nbsp;412)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

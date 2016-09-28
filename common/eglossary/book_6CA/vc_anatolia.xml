@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Anatolia">
+    <pronunciation>
+        <voicing src="g6C-anatolia.mp3">Anatolia</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The peninsula between the Mediterranean and Black seas that is now occupied by most of Turkey; also called Asia Minor. (p.&nbsp;131)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Anatolia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Península entre el Mediterráneo y el mar Negro actualmente ocupada por casi la totalidad de Turquía. También llamada Asia Menor. (pág.&nbsp;131)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

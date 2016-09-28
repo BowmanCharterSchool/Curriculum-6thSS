@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="mercenary">
+    <pronunciation>
+        <voicing src="g6C-mercenary.mp3">mercenary</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A soldier hired to serve in an army. (p.&nbsp;496)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mercenario">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Soldado contratado para prestar servicio en un ejército. (pág.&nbsp;496)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

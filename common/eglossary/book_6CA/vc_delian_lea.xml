@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Delian League">
+    <pronunciation>
+        <voicing src="g6C-delian_lea.mp3">Delian League</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An alliance of Greek city-states formed at the end of the Persian War to protect Athens and its overseas allies. (p.&nbsp;395)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Liga de Delos">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Alianza de ciudades griegas formada al final de la guerra Persa para proteger a Atenas y a sus aliados extranjeros. (pág.&nbsp;395)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

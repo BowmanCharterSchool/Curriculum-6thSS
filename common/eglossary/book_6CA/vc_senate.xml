@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="senate">
+    <pronunciation>
+        <voicing src="g6C-senate.mp3">senate</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A governing body of ancient Rome, made up of 300 members who advised Roman leaders. (p.&nbsp;438)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="senado">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cuerpo gubernamental de la antigua Roma, formado por 300 miembros que asesoraban a los líderes romanos. (pág.&nbsp;438)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

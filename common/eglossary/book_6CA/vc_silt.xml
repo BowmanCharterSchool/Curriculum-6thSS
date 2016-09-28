@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="silt">
+    <pronunciation>
+        <voicing src="g6C-silt.mp3">silt</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Fine, fertile soil deposited by a river. (pp. 84, 147)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="limo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tierra fina y fértil depositada por un río. (págs. 84, 147)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

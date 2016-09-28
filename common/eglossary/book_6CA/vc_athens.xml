@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Athens">
+    <pronunciation>
+        <voicing src="g6C-athens.mp3">Athens</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A city-state of ancient Greece, which reached its greatest cultural achievements in the fifth century B.C. It is the capital and largest city of modern Greece. (p.&nbsp;379)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Atenas">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudad estado de la antigua Grecia, que alcanzó su máximo esplendor cultural en el siglo V a.C. Es la capital y ciudad más grande de la Grecia moderna. (pág.&nbsp;379)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

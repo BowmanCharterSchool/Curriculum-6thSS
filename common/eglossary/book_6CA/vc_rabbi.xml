@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="rabbi">
+    <pronunciation>
+        <voicing src="g6C-rabbi.mp3">rabbi</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A religious leader and teacher trained in Jewish law, rituals, and tradition. (p.&nbsp;346)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="rabino">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Lider y maestro religioso formado en las leyes, los rituales y las tradiciones judías. (pág.&nbsp;346)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

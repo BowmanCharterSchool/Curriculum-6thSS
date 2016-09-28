@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="comedy">
+    <pronunciation>
+        <voicing src="g6C-comedy.mp3">comedy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A form of drama usually having a happy ending and often making fun of politics, people, and ideas of the times. (p.&nbsp;412)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="comedia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tipo de teatro generalmente con final feliz y que a menudo se burla de la política, las personas y las ideas de la época. (pág.&nbsp;412)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Himalayas">
+    <pronunciation>
+        <voicing src="g6C-himalayas.mp3">Himalayas</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A high mountain range that extends through northern India, southern Tibet, Nepal, and Bhutan. (p.&nbsp;220)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Himalaya">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Alta cadena montañosa que se extiende a través del norte de la India, el sur del Tíbet, Nepal y Bhután. (pág.&nbsp;220)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

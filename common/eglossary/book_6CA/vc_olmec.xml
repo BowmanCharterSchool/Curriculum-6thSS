@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Olmec">
+    <pronunciation>
+        <voicing src="g6C-olmec.mp3">Olmec</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The earliest known Mesoamerican culture, which flourished from 1200 to 400 B.C. and was centered along the Gulf Coast of what is now southern Mexico. (p.&nbsp;301)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="olmeca">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[La cultura mesoamericana más antigua que se conoce, que floreció entre el año 1200 y el año 400 a.C. y se centró en la costa sur del golfo de México. (pág.&nbsp;301)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

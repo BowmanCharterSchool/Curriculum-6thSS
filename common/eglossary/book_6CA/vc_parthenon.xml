@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Parthenon">
+    <pronunciation>
+        <voicing src="g6C-parthenon.mp3">Parthenon</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A temple of the Greek goddess Athena, built in the fifth century B.C. on the acropolis of Athens. (p.&nbsp;396)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Partenón">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Templo de la diosa griega Atenea, construido en el siglo V a.C. en la acrópolis de Atenas. (pág.&nbsp;396)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

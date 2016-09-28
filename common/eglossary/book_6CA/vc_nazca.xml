@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Nazca">
+    <pronunciation>
+        <voicing src="g6C-nazca.mp3">Nazca</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient culture that arose near what is now the southern coast of Peru and prospered from 200 B.C. to A.D. 600. (p.&nbsp;296)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Nazca">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua cultura que surgió cerca de lo que hoy es la costa sur de Perú y prosperó desde el año 200 a.C. hasta el año 600 d.C. (pág.&nbsp;296)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

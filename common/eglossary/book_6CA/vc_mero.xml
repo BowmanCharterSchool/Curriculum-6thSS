@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Meroë">
+    <pronunciation>
+        <voicing src="g6C-mero.mp3">Meroë</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The capital of the kingdom of Kush from around 590 B.C., located on the Nile and having access to trade routes as well as gold and iron. (p.&nbsp;192)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Meroë">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Capital del reino de Kush desde aproximadamente 590 a.C., ubicada en el Nilo y con acceso a las rutas comerciales así como al oro y al hierro. (pág.&nbsp;192)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Daoism">
+    <pronunciation>
+        <voicing src="g6C-daoism.mp3">Daoism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A belief system said to have begun with the sixth-century-B.C. philosopher Laozi. Daoism emphasizes living in harmony with nature. (p.&nbsp;262)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Taoísmo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Sistema de creencias supuestamente iniciado en el siglo VI a.C. por el filósofo Laozi. El taoísmo enfatiza la vida en armonía con la naturaleza. (pág.&nbsp;262)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

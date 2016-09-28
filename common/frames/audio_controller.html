@@ -1,0 +1,124 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<title>eHistory-Social Science Book</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="../css/resources.css" type="text/css">
+
+<script language="JavaScript" src="../js/client_functionality.js"></script> 
+
+<script type="text/javascript">
+<!--
+
+	var pageCode = this.parent.audioPageCode;
+	var pageTrack = this.parent.audioPageTrack;
+	var pageTracks = this.parent.audioPageTracks;
+	var autostart = this.parent.audioPageTrackPlay;
+	
+	var FlashVersion = 6;
+	var FlashURL = "../swfs/audio_controller_nojs.swf";
+	var	FlashVars ="";
+		FlashVars += "mp3dir=../../book/mp3s/";
+		FlashVars += "&page="+pageCode;
+		if (pageTrack) {
+			FlashVars += "&track="+pageTrack;
+		}
+		FlashVars += "&tracks="+pageTracks;
+		FlashVars += "&autostart="+autostart;
+		FlashVars += "&mp3debug=0";
+	var FlashBGColor ="#B5E3EE";
+	var FlashWidth = "286";
+	var FlashHeight = "92";
+	var FlashID = "AudioController";
+
+function AlertUser(alertCode) {
+	alert (getGlobalText(alertCode));
+}
+function ActivatePageTrack(trackNumber) {
+	top.ActivatePageTrack(trackNumber);
+}
+function DeactivatePageTrack(trackNumber) {
+	top.DeactivatePageTrack(trackNumber);
+}
+
+function FocusBeforeReadAloud() {
+	top.FocusBeforeReadAloud();
+}
+
+function FocusAfterReadAloud() {
+	top.FocusAfterReadAloud();
+}
+
+//-->
+</script>
+
+</head>
+
+<body bgcolor="#B5E3EE"  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bottommargin="0" tabindex="-1">
+
+<script type="text/javascript">
+<!--
+// DETECTS FLASH AND WRITES OUT OBJECT/EMBED TAGS
+if (!FlashVersion) var FlashVersion = 6;
+var MM_contentVersion = FlashVersion;
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+if ( plugin ) {
+	var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+	for (var i = 0; i < words.length; ++i){
+	if (isNaN(parseInt(words[i]))) continue;
+		var MM_PluginVersion = words[i]; 
+	}
+	var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+} else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 && (navigator.appVersion.indexOf("Win") != -1)) {
+	document.write('<scr' + 'ipt language="VBScript"\> \n'); //FS hide this from IE4.5 Mac by splitting the tag
+	document.write('on error resume next \n');
+	document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+	document.write('</scr' + 'ipt\> \n');
+}
+if (MM_FlashCanPlay) {
+	var FlashLiveConnect = "false";
+	var FlashLoop = "false";
+	var FlashAlign = "";
+	var FlashQuality = "high";
+	var FlashCodebase = "6,0,79,0";
+
+	// write out html object tag
+		document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+		document.write(' codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version='+FlashCodebase+'"');
+		document.write(' id="'+FlashID+'" width="'+FlashWidth+'" height="'+FlashHeight+'">');
+		document.write('<param name="movie" value="'+FlashURL+'">');
+		document.write('<param name="FlashVars" value="'+FlashVars+'">');
+	// other html object parameters
+		document.write('<param name="loop" value="false">');
+		document.write('<param name="menu" value="false">');
+		document.write('<param name="quality" value="high">');
+		document.write('<param name="align" value="">');
+	// background color for flash movie
+		document.write('<param name="bgcolor" value="'+FlashBGColor+'">'); 
+		
+	// embed tag for Netscape 4
+		document.write('<embed src="'+FlashURL+'"');
+		document.write(' FlashVars="'+FlashVars+'"');
+		document.write(' loop="false"');
+		document.write(' menu="false"');
+		document.write(' quality="high"');
+		document.write(' align=""');
+	// background color for flash movie
+		document.write(' bgcolor="'+FlashBGColor+'"');
+		document.write(' width="'+FlashWidth+'"');
+		document.write(' height="'+FlashHeight+'"');
+		document.write(' name="'+FlashID+'"');
+		document.write(' type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>');
+		document.write('</object>');
+} else {
+	if(!NoFlashString){
+		var NoFlashString = "<p align=center>You need Flash for Read Aloud audio.</p>";
+		NoFlashString += "<p align=center><a href=\"http://www.macromedia.com/go/getflashplayer/\" target=\"_blank\"><img src=\"../graphics/get_flash_player.gif\" alt=\"Get Macromedia Flash Player\" border=\"0\"></a></p>";
+	}
+	document.write(NoFlashString);
+}
+//-->
+</script>
+</body>
+</html>

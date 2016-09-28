@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Jesus">
+    <pronunciation>
+        <voicing src="g6C-jesus.mp3">Jesus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A teacher whose life and teachings serve as the basis of the Christian religion. Christians believe Jesus to be the Son of God. (p.&nbsp;467)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Jesús">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Maestro cuya vida y enseñanzas sirvieron como base de la religión cristiana. Los cristianos creen que Jesús es el hijo de Dios. (pág.&nbsp;467)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="tribute">
+    <pronunciation>
+        <voicing src="g6C-tribute.mp3">tribute</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A payment of money or goods by one ruler to another in order to ensure protection. (p.&nbsp;120)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tributo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Pago de dinero o mercancías por parte de un monarca a otro a cambio de protección. (pág.&nbsp;120)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

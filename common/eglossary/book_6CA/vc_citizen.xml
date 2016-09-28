@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="citizen">
+    <pronunciation>
+        <voicing src="g6C-citizen.mp3">citizen</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person who is loyal to a particular government and entitled to be protected by that government. (p.&nbsp;374)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ciudadano">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Persona leal a un determinado gobierno y que tiene el derecho de recibir protección por parte de ese gobierno. (pág.&nbsp;374)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Chavín">
+    <pronunciation>
+        <voicing src="g6C-chavn.mp3">Chavín</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A culture that flourished between 900 and 200 B.C. in the Andes of Peru. (p.&nbsp;295)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Chavín">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cultura que floreció entre los años 900 y 200 a.C. en los Andes peruanos. (pág.&nbsp;295)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

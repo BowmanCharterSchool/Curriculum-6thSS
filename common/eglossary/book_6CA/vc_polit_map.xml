@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="political map">
+    <pronunciation>
+        <voicing src="g6C-polit_map.mp3">political map</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A map showing features people have created, such as cities, states, provinces, territories, and countries. (p.&nbsp;19)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mapa político">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Mapa que muestra características creadas por el hombre, como ciudades, estados, provincias, territorios y países. (pág.&nbsp;19)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

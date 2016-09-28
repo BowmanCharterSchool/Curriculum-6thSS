@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="gladiator">
+    <pronunciation>
+        <voicing src="g6C-gladiator.mp3">gladiator</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[In ancient Rome, a trained warrior who engaged in combat to the death to entertain the public. (p.&nbsp;458)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="gladiador">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[En la antigua Roma, guerrero entrenado que combatía hasta la muerte para divertir al público. (pág.&nbsp;458)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

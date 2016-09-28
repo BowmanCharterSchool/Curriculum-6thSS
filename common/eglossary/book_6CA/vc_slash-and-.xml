@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="slash-and-burn">
+    <pronunciation>
+        <voicing src="g6C-slash-and-.mp3">slash-and-burn</voicing>
+    </pronunciation>
+    <pos value="adj.">
+        <definition id="1">
+             <![CDATA[Relating to a type of agriculture in which patches of land are prepared for planting by cutting down and burning the natural vegetation. (pp. 60, 293)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tala y quema">
+            <pos value="adj.">
+                <definition id="1">
+                     <![CDATA[Tipo de agricultura que consiste en talar y quemar la vegetación natural para obtener parcelas de tierra para el cultivo. (págs. 60, 293)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

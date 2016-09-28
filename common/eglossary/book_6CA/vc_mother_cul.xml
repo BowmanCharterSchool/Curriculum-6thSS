@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="mother culture">
+    <pronunciation>
+        <voicing src="g6C-mother_cul.mp3">mother culture</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A culture that shapes and influences the customs and ideas of later cultures. (p.&nbsp;303)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="cultura madre">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cultura que modela e influye las costumbres e ideas de culturas más recientes. (pág.&nbsp;303)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="republic">
+    <pronunciation>
+        <voicing src="g6C-republic.mp3">republic</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A form of government in which the people elect leaders and representatives. (p.&nbsp;432)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="república">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Forma de gobierno en la cual los ciudadanos eligen a sus líderes y representantes. (pág.&nbsp;432)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

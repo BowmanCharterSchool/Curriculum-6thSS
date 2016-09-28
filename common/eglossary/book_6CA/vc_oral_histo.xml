@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="oral history">
+    <pronunciation>
+        <voicing src="g6C-oral_histo.mp3">oral history</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An unwritten verbal account of an event. (p.&nbsp;41)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="historia oral">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Narración verbal no escrita de un acontecimiento. (pág.&nbsp;41)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

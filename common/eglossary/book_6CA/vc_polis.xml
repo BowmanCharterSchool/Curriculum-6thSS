@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="polis">
+    <pronunciation>
+        <voicing src="g6C-polis.mp3">polis</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A Greek city-state, such as Athens or Sparta. (p.&nbsp;371)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="polis">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudad central de una ciudad estado en la antigua Grecia, como por ejemplo Atenas o Esparta. (pág.&nbsp;371)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

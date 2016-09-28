@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="oligarchy">
+    <pronunciation>
+        <voicing src="g6C-oligarchy.mp3">oligarchy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A government that is controlled by the few, with the basis of power often being wealth. (p.&nbsp;373)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="oligarquía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Gobierno controlado por una minoría, para el cual la base del poder es a menudo la riqueza. (pág.&nbsp;373)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

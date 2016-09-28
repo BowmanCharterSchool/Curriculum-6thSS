@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Maya">
+    <pronunciation>
+        <voicing src="g6C-maya.mp3">Maya</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A civilization of present-day southern Mexico and northern Central America, which reached its height from A.D. 250 to 900. (p.&nbsp;307)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mayas">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Civilización del sur de México y norte de América Central, que alcanzó su máximo esplendor desde el año 250 hasta el año 900 d.C. (pág.&nbsp;307)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

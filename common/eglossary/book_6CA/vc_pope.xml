@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="pope">
+    <pronunciation>
+        <voicing src="g6C-pope.mp3">pope</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The bishop of Rome and head of the Roman Catholic Church. (p.&nbsp;485)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="papa">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Obispo de Roma y jefe de la Iglesia Católica Romana. (pág.&nbsp;485)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

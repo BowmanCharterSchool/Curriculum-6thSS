@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="cuneiform">
+    <pronunciation>
+        <voicing src="g6C-cuneiform.mp3">cuneiform</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient writing system developed by the Sumerians, made up of wedge-shaped markings. (p.&nbsp;102)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="cuneiforme">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antiguo sistema de escritura desarrollado por los sumerios que consiste en signos con forma de cuña. (pág.&nbsp;102)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

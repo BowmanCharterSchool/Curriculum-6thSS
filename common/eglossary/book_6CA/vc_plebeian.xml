@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="plebeian">
+    <pronunciation>
+        <voicing src="g6C-plebeian.mp3">plebeian</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A member of the common people of ancient Rome, who were allowed to vote but not to hold important government positions. (p.&nbsp;437)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="plebeyo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudadano corriente en la antigua Roma, que tenía derecho de voto pero no a ocupar puestos importantes de gobierno. (pág.&nbsp;437)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

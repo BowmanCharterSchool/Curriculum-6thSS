@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="resurrection">
+    <pronunciation>
+        <voicing src="g6C-resurrecti.mp3">resurrection</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A return to life after death. (p.&nbsp;470)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="resurrección">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Vuelta a la vida después de la muerte. (pág.&nbsp;470)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

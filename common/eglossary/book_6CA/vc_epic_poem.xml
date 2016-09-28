@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="epic poem">
+    <pronunciation>
+        <voicing src="g6C-epic_poem.mp3">epic poem</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A long poem that tells a story of heroes. (pp. 364, 516)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="poema épico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Extenso poema que relata una historia de héroes. (págs. 364, 516)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

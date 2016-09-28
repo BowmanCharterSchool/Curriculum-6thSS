@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Hanging Gardens of Babylon">
+    <pronunciation>
+        <voicing src="g6C-hanging_ga.mp3">Hanging Gardens of Babylon</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An artificial mountain covered with trees and plants, built by Nebuchadnezzar II for his wife. The gardens are one of the Seven Wonders of the World. (p.&nbsp;122)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Jardines colgantes de Babilonia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Montaña artificial cubierta por árboles y plantas, construida por Nabucodonosor II para su esposa. Es una de las siete maravillas del mundo. (pág.&nbsp;122)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

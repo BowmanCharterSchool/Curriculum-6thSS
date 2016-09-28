@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="bronze">
+    <pronunciation>
+        <voicing src="g6C-bronze.mp3">bronze</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A metal that is a mixture of copper and tin. (p.&nbsp;101)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="bronce">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Metal resultante de la mezcla de cobre y estaño. (pág.&nbsp;101)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

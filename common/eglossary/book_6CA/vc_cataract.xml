@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="cataract">
+    <pronunciation>
+        <voicing src="g6C-cataract.mp3">cataract</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A steep waterfall. (p.&nbsp;147)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="catarata">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cascada grande. (pág.&nbsp;147)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

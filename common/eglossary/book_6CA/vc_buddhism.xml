@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Buddhism">
+    <pronunciation>
+        <voicing src="g6C-buddhism.mp3">Buddhism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A religion that began in India and is based on the teachings of Siddhartha Gautama. (p.&nbsp;233)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="budismo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Religión que comenzó en la India y se basa en las enseñanzas de Siddhartha Gautama. (pág.&nbsp;233)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

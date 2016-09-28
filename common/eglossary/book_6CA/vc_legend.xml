@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="legend">
+    <pronunciation>
+        <voicing src="g6C-legend.mp3">legend</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A popular story handed down from earlier times, which may be believed to be true but cannot be proved. (p.&nbsp;431)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="leyenda">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Narración popular transmitida desde épocas remotas, que puede creerse verdadera pero no puede ser probada. (pág.&nbsp;431)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Phoenician">
+    <pronunciation>
+        <voicing src="g6C-phoenician.mp3">Phoenician</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A member of a trading people who lived on the coast of the eastern Mediterranean. (p.&nbsp;358)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="fenicio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Miembro de un pueblo comerciante que vivió en las costas orientales del Mediterráneo. (pág.&nbsp;358)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

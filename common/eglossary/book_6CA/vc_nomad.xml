@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="nomad">
+    <pronunciation>
+        <voicing src="g6C-nomad.mp3">nomad</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A member of a group of people who have no set home but move from place to place. (pp. 52, 502)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="nómada">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Miembro de un grupo de personas que no tienen hogar fijo y se mudan de un lugar a otro. (págs. 52, 502)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

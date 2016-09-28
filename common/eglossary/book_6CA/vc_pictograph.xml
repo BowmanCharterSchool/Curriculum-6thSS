@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="pictograph">
+    <pronunciation>
+        <voicing src="g6C-pictograph.mp3">pictograph</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A picture or drawing that represents a word or an idea in an early system of writing. (pp. 101, 255)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="pictografía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Fotografía o dibujo que representa una palabra o una idea en un antiguo sistema de escritura. (págs. 101, 255)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="dynastic cycle">
+    <pronunciation>
+        <voicing src="g6C-dynastic_c.mp3">dynastic cycle</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The pattern of the rise and fall of dynasties. (p.&nbsp;256)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="sequía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Período con poca lluvia, en el cual se hace difícil el cultivo. (pág.&nbsp;85)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

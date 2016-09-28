@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="nirvana">
+    <pronunciation>
+        <voicing src="g6C-nirvana.mp3">nirvana</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[In Buddhism and Hinduism, a state of wisdom which breaks the cycle of reincarnation. (p.&nbsp;234)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="nirvana">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[En el budismo y el hinduismo, estado de sabiduría que rompe el ciclo de la reencarnación. (pág.&nbsp;234)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

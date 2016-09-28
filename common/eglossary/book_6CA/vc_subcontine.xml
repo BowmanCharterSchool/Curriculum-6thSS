@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="subcontinent">
+    <pronunciation>
+        <voicing src="g6C-subcontine.mp3">subcontinent</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A large landmass that is part of a continent but considered a separate landform. (p.&nbsp;219)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="subcontinente">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Gran extensión de tierra que forma parte de un continente pero se considera como un accidente geográfico separado. (pág.&nbsp;219)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

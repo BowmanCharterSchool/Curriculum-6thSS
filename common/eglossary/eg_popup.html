@@ -1,0 +1,341 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+	"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+
+<title>eGlossary</title>
+
+<style type="text/css">
+
+	<!--
+
+	body{
+
+		margin: 0;
+
+		padding: 5px;
+
+		background-color: #FFFFFF;
+
+		color: #000000;
+
+		font-family: arial, helvetica, sans-serif;
+
+		overflow: hidden;
+
+	}
+
+	div#GETFLASH{
+
+		width: 400px;
+
+		top: 120px;
+
+		left: 72px;
+
+		position: absolute;
+
+		font-family: arial, helvetica, sans-serif;
+
+		font-size: medium;
+
+		font-weight: bold;
+
+	}
+
+	-->
+
+</style>
+
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="5" topmargin="5" rightmargin="5" marginwidth="5" onLoad="window.focus();">
+
+
+
+<script language="JavaScript1.1" type="text/javascript">
+
+<!--
+
+//
+
+//   getQueryParams() : Array
+
+//
+
+//   getGlobalText -- moved to functionality.js 2/28/04 TS
+
+
+
+
+
+function getQueryParams() {
+
+  
+
+	var queryString = window.location.search.substring(1); 
+
+
+
+	// Array to store parameters
+
+	var queryParams = new Array();
+
+ 
+
+ 	// save full query string as parameter
+
+ 	queryParams['QUERY_STRING'] = queryString;
+
+ 	
+
+	// multi-value separator
+
+	multivalueSeparator = ', ';
+
+	
+
+	if (queryString.length < 1) { return queryParams; }
+
+
+
+	var params = queryString.split('&');
+
+	
+
+	for (p in params) {
+
+		var curParam = params[p];
+
+
+
+		var paramParts = curParam.split('=');
+
+
+
+		// if param missing 
+
+		if (paramParts.length == 1) {
+
+			paramParts[1] = '';
+
+		}
+
+		
+
+		// unencode value
+
+		paramParts[1] = paramParts[1].replace('+', ' ');
+
+		paramParts[1] = unescape(paramParts[1]);
+
+		
+
+		if (queryParams[paramParts[0]]) {
+
+			// parameter already exits, append additional value
+
+			queryParams[paramParts[0]] += multivalueSeparator + paramParts[1];
+
+		} else {
+
+			// create new parameter in array
+
+			queryParams[paramParts[0]] = paramParts[1];
+
+		}
+
+	}
+
+	
+
+	return queryParams;
+
+  
+
+} // getQueryParams
+
+
+
+var queryParams = getQueryParams();
+
+var	gradeNum = 2;
+
+if (queryParams['grade']) {
+
+	gradeNum = queryParams['grade'];
+
+}
+
+var gradeLetter= gradeNum;
+
+switch(gradeNum){
+
+	case "1":
+
+	 	gradeLetter = "1CA";
+
+		break;
+
+	case "2":
+
+	 	gradeLetter = "2CA";
+
+		break;
+
+	case "3":
+
+	 	gradeLetter = "3CA";
+
+		break;
+
+	case "4":
+
+	 	gradeLetter = "4CA";
+
+		break;
+
+	case "5":
+
+	 	gradeLetter = "51CA";
+
+		break;
+
+	case "6":
+
+	 	gradeLetter = "6CA";
+
+		break;
+
+	default:
+
+		break;
+
+}
+
+
+
+var urlString = "glossary_shell.swf";
+
+
+
+var FlashVars = '';
+
+if(gradeLetter!=(null||"")){
+
+	FlashVars = "grade="+gradeLetter;
+
+}
+
+
+
+var letter = '';
+
+if (queryParams['letter']) {
+
+	letter = queryParams['letter'];
+
+}
+
+if(word!=(null||"")){
+
+	FlashVars += "&letter="+escape(letter);
+
+}
+
+
+
+var word = '';
+
+if (queryParams['word']) {
+
+	word = queryParams['word'];
+
+}
+
+if(word!=(null||"")){
+
+	FlashVars += "&word="+escape(word);
+
+}
+
+
+
+var MM_contentVersion = 6;
+
+var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+
+if ( plugin ) {
+
+		var words = navigator.plugins["Shockwave Flash"].description.split(" ");
+
+	    for (var i = 0; i < words.length; ++i)
+
+	    {
+
+		if (isNaN(parseInt(words[i])))
+
+		continue;
+
+		var MM_PluginVersion = words[i]; 
+
+	    }
+
+	var MM_FlashCanPlay = MM_PluginVersion >= MM_contentVersion;
+
+}
+
+else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+
+   && (navigator.appVersion.indexOf("Win") != -1)) {
+
+	document.write('<scr' + 'ipt language="VBScript"\> \n'); //FS hide this from IE4.5 Mac by splitting the tag
+
+	document.write('on error resume next \n');
+
+	document.write('MM_FlashCanPlay = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & MM_contentVersion)))\n');
+
+	document.write('</scr' + 'ipt\> \n');
+
+}
+
+if ( MM_FlashCanPlay ) {
+
+	document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="eglossary" width="544" height="500" align="">');
+
+	document.write('<param name="movie" value="'+urlString+'">');
+
+	document.write('<param name="flashvars" value="'+FlashVars+'">');
+
+	document.write('<param name="salign" value="LT"><param name="loop" value="false"><param name="menu" value="false"><param name="quality" value="high"><param name="bgcolor" value="#FFFFFF">'); 
+
+	document.write('<embed src="'+urlString+'" flashvars="'+FlashVars+'" width="544" height="500" salign="LT" align="top" autostart="false" menu="false" quality="high" bgcolor="#FFFFFF"></embed>');
+
+	document.write('</object>');
+
+} else{
+
+	document.write('<div id="GETFLASH">');
+
+	document.write('<p><strong>You need the latest version of the Flash plug-in to view the eGlossary. Click the Flash Player button below to get the plug-in.</strong></p>');
+
+	document.write('<p><a href="http://www.macromedia.com/go/getflashplayer/" target="_blank"><img src="/graphics/get_flash_player.gif" alt="Get Macromedia Flash Player" border="0"></a></p>');
+
+	document.write('</div>');
+
+}
+
+//-->
+
+</script>
+
+</body>
+
+</html>
+

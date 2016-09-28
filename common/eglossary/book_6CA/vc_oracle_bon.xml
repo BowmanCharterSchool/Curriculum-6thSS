@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="oracle bone">
+    <pronunciation>
+        <voicing src="g6C-oracle_bon.mp3">oracle bone</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An animal bone or turtle shell used by the Shang kings of China to communicate with and influence the gods. (p.&nbsp;255)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="hueso de oráculo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Hueso de animal o caparazón de tortuga que utilizaban los reyes Shang de China para comunicarse con los dioses e influenciarlos. (pág.&nbsp;255)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Pericles">
+    <pronunciation>
+        <voicing src="g6C-pericles.mp3">Pericles</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A leader of ancient Athens who set out to strengthen democracy and expand the Athenian empire. (p.&nbsp;393)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Pericles">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Líder de la antigua Atenas que se propuso reforzar la democracia y expandir el imperio ateniense. (pág.&nbsp;393)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

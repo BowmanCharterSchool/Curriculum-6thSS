@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="obelisk">
+    <pronunciation>
+        <voicing src="g6C-obelisk.mp3">obelisk</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A four-sided shaft with a pyramid-shaped top. (p.&nbsp;174)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="obelisco">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Monumento en forma de pilar de cuatro caras que termina en una punta con forma de pirámide. (pág.&nbsp;174)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

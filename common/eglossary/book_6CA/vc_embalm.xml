@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="embalm">
+    <pronunciation>
+        <voicing src="g6C-embalm.mp3">embalm</voicing>
+    </pronunciation>
+    <pos value="v.">
+        <definition id="1">
+             <![CDATA[To preserve a body after death. (p.&nbsp;160)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="embalsamar">
+            <pos value="v.">
+                <definition id="1">
+                     <![CDATA[Conservar un cuerpo después de la muerte. (pág.&nbsp;160)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

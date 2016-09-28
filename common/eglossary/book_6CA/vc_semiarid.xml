@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="semiarid">
+    <pronunciation>
+        <voicing src="g6C-semiarid.mp3">semiarid</voicing>
+    </pronunciation>
+    <pos value="adj.">
+        <definition id="1">
+             <![CDATA[Having little rainfall and warm temperatures. (p.&nbsp;84)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="semiárido">
+            <pos value="adj.">
+                <definition id="1">
+                     <![CDATA[Con poca lluvia y altas temperaturas. (pág.&nbsp;84)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

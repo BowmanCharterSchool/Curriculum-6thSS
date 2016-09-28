@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Olympics">
+    <pronunciation>
+        <voicing src="g6C-olympics.mp3">Olympics</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient Greek festival in honor of the god Zeus, which took place every four years and featured competitions in athletics and poetry. (p.&nbsp;363)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Olimpíada">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Festival de la antigua Grecia en honor del dios Zeus, que se llevaba a cabo cada cuatro años y presentaba competencias atléticas y poéticas. (pág.&nbsp;363)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

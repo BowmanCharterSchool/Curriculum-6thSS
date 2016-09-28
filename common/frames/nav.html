@@ -1,0 +1,212 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<title>eHistory-Social Science Book</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link rel="stylesheet" href="../css/nav.css">
+<link rel="stylesheet" href="../css/printables.css" media="print">
+
+<script language="JavaScript" src="../js/client_functionality.js"></script> 
+<script language="JavaScript" src="../../book/js/grade.js"></script> 
+
+<script language="JavaScript">
+
+var pageSize = top.GetPageSize();
+
+// *** PAGE SIZE FUNCTIONS ***
+
+function UpdateNavBarButtons(prevPage, nextPage, largerPage, smallerPage, bothPages, printPage) {
+
+	setButtonState('previous', prevPage);
+	setButtonState('next', nextPage);
+	setButtonState('larger', largerPage);
+	setButtonState('smaller', smallerPage);
+	setButtonState('bothpages', bothPages);
+	setButtonState('print', printPage);
+
+} // UpdateNavBar
+
+
+function setButtonState(buttonName, buttonState) {
+
+	if (buttonState == 0) {
+		// do nothing
+	} else if (buttonState == 1) {
+		EnableButton(buttonName);
+	} else if (buttonState == -1) {
+		DisableButton(buttonName);
+	} else if (buttonState == 2) {
+		ActivateButton(buttonName);
+	} // setButtonState
+
+} // setButtonState
+
+
+function PrevPage() 
+{
+if (document["previous"].src.indexOf("-disabled") < 0) 
+	{
+	top.PrevPage();
+	} 
+else
+ 	{
+	alert( top.getGlobalText("GT013") );
+	}
+} // PrevPage
+
+
+function NextPage() {
+
+	if (document["next"].src.indexOf("-disabled") < 0) {
+		top.NextPage();
+	} else {
+		alert( top.getGlobalText("GT014") );
+	}
+	
+	
+} // NextPage
+
+
+function SmallerPage() {
+
+	if (document["smaller"].src.indexOf("-disabled") < 0) { 
+		top.SmallerPage();
+	} else {
+		alert (getGlobalText("GT022"));
+	}
+		
+} // SmallerPage
+
+
+function LargerPage() {
+
+	if (document["larger"].src.indexOf("-disabled") < 0) { 
+		top.LargerPage();
+	} else {
+		alert (getGlobalText("GT021"));
+	}
+
+} // LargerPage
+
+
+function PrintPage() {
+
+	if (document["print"].src.indexOf("-disabled") < 0) {
+		top.PrintPage();
+	} else {
+		alert (getGlobalText("GT009"));
+	}
+
+} // HomeworkPage
+
+
+function BothPages() {
+
+	if (document["bothpages"].src.indexOf("-disabled") < 0) {
+		top.BothPages();
+	} else {
+		alert (getGlobalText("GT025"));
+	}
+
+
+} // BothPages
+
+
+// *** AUDIO FUNCTIONS ***
+
+var disabledAudioURL = top.URL.getFullURL(document.location.href, 'audio_disabled.html');
+var audioControllerURL = top.URL.getFullURL(document.location.href, 'audio_controller.html');
+var audioPageCode = '';
+var audioPageTracks = 1;
+var audioPageTrack = 1;
+var audioPageTrackPlay = 0;
+
+function CueAudioTrack(pageCode, audioTracks, trackToCue) {
+	LoadAudioController(pageCode, audioTracks, trackToCue, 0);
+} // CueAudioTrack
+
+function PlayAudioTrack(pageCode, audioTracks, trackToPlay) {
+	LoadAudioController(pageCode, audioTracks, trackToPlay, 1);
+} // PlayAudioTrack
+
+function LoadAudioController(pageCode, audioTracks, trackToLoad, playTrack) {
+	audioPageCode = pageCode;
+	audioPageTracks = audioTracks;
+	audioPageTrack = trackToLoad;
+	audioPageTrackPlay = playTrack;
+	audiocontroller.location = audioControllerURL;
+}  // LoadAudioController
+
+function DisableAudio() {
+
+	audiocontroller.location = disabledAudioURL;
+
+} // DisableAudio
+
+</script>
+
+</head>
+
+<body bgcolor="#429BB1" leftmargin="0" topmargin="0" bottommargin="0" marginwidth="0" marginheight="0" tabindex="1" onLoad="javascript:top.NavInitialized()">
+<div class="noprint">
+<div class="bookbar"><script language='javascript'>document.write('<img src="../graphics/nav/booktitles/' + grade + '.gif" alt="Houghton Mifflin History-Social Science" width="372" height="16" border="0">');</script></div>
+<!--start navbar-->
+<div class="nav">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#B5E3EE" background="../graphics/nav/audio_disabled.gif" >
+  <tr align="left" valign="top">
+    <td height="92" valign="top" width="100">
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="92"><a href="javascript:PrevPage()" tabindex="2"><img src="../graphics/nav/buttons/previous.gif" alt="Previous" name="previous" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)" width="59" height="90" class="b_previous" border="0"></a></td>
+          
+          <td height="92"><a href="javascript:NextPage()" tabindex="3"><img src="../graphics/nav/buttons/next.gif" name="next" alt="Next" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)" width="55" height="90" class="b_next" border="0"></a></td>
+          
+          <td height="92"><a href="javascript:top.ButtonJumpPage()" tabindex="4"> 
+            <img src="../graphics/nav/buttons/jump.gif" name="jump" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)" alt="Jump page" width="87" height="90" class="b_jump"  border="0"></a></td>
+          
+          <td height="92">
+          	<a href="javascript:LargerPage()" tabindex="5">
+					<script language="JavaScript">
+					
+					var ActionString = 'onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)"';
+						if (pageSize < 4)
+						{
+						document.write('<img src="../graphics/nav/buttons/larger.gif" alt="larger" border="0" alt="Larger" name="larger" width="45" height="90" class="b_larger" ' + ActionString + '>');
+						}
+					else
+						{
+						document.write('<img src="../graphics/nav/buttons/larger-disabled.gif" alt="larger" alt="Larger" border="0"  name="larger" width="45" height="90" class="b_larger" ' + ActionString + '>');
+						}
+					</script></a></td>
+          
+          <td height="92">
+          	
+				<a href="javascript:SmallerPage()" tabindex="6">
+					<script language="JavaScript">
+
+					if (pageSize > 1)
+						{
+						document.write('<img src="../graphics/nav/buttons/smaller.gif" alt="smaller" border="0" alt="Smaller" name="smaller" width="52" height="90" class="b_smaller" ' + ActionString + '>');
+						}
+					else
+						{
+						document.write('<img src="../graphics/nav/buttons/smaller-disabled.gif" alt="smaller" alt="Smaller" border="0" name="smaller" width="52" height="90" class="b_smaller" ' + ActionString + '>');
+						}
+					</script></a></td>
+          	          
+          <td height="92"><a href="javascript:BothPages()" tabindex="8"><img src="../graphics/nav/buttons/bothpages.gif" alt="Both pages" name="bothpages" onMouseOver="LightActiveButton(this)" onMouseOut="UnlightActiveButton(this)" width="77" height="90" class="b_bothpages" border="0"></a></td>
+          
+          <td height="92"><a name="focus_before_read_aloud" href="javascript:PrintPage()" tabindex="9"><img src="../graphics/nav/buttons/print.gif" alt="Print" name="print" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)" width="61" height="90" class="b_help" border="0"></a></td></tr>
+      </table>
+    </td>
+    <td valign="top"  width="286" bgcolor="#CFEDF6"><iframe src="audio_blank.html" frameborder=0 width="286" height="92" align="top" scrolling="no" name="audiocontroller" marginheight=0 marginwidth=0></iframe> 
+    </td>
+    <td valign="top">&nbsp;<iframe src="../swfs/js_Blank.html" frameborder=0 width="1" height="1" align="top" scrolling="no" name="jshtml" marginheight=0 marginwidth=0></iframe></td></tr></table>
+    </div>
+</div>
+<div class="onlyprint">
+To print a page, click the <b>Print page</b> button. If this button is not active, the page cannot be printed. 
+</div>
+</body>
+</html>

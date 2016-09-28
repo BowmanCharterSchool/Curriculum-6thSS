@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="missionary">
+    <pronunciation>
+        <voicing src="g6C-missionary.mp3">missionary</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person who travels to a foreign land to spread his or her religious beliefs. (p.&nbsp;479)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="misionero">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Persona que viaja a otros países para diseminar sus creencias religiosas. (pág.&nbsp;479)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

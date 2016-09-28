@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="dynasty">
+    <pronunciation>
+        <voicing src="g6C-dynasty.mp3">dynasty</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A line of rulers from the same family. (p.&nbsp;165)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="dinastía">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Serie de gobernantes de una misma familia. (pág.&nbsp;165)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

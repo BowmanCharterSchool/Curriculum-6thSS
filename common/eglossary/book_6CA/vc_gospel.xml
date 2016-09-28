@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Gospel">
+    <pronunciation>
+        <voicing src="g6C-gospel.mp3">Gospel</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of the first four books of the New Testament, describing the life and teachings of Jesus. (p.&nbsp;468)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Evangelio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Uno de los cuatro primeros libros del Nuevo Testamento, que describe la vida y enseñanzas de Jesús. (pág.&nbsp;468)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

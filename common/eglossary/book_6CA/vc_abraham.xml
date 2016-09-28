@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Abraham">
+    <pronunciation>
+        <voicing src="g6C-abraham.mp3">Abraham</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[According to the Bible, a shepherd from the city of Ur in Mesopotamia who became the father of the Hebrews. (p.&nbsp;325)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Abraham">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Según la Biblia, pastor de la ciudad de Ur en la Mesopotamia, que se convirtió en el patriarca de los hebreos. (pág.&nbsp;325)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

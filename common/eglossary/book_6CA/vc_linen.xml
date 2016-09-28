@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="linen">
+    <pronunciation>
+        <voicing src="g6C-linen.mp3">linen</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A fabric woven from fibers of the flax plant. (p.&nbsp;149)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="lino">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tela tejida con fibras provenientes de la planta de lino. (pág.&nbsp;149)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

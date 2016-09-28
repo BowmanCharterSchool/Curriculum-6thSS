@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Mesolithic Age">
+    <pronunciation>
+        <voicing src="g6C-mesolithic.mp3">Mesolithic Age</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The Middle Stone Age—a period that lasted from about 10,000 to 6000 B.C., during which people began to control fire and develop language. (p.&nbsp;32)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Mesolítico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Edad de Piedra Media: período que duró desde alrededor del año 10.000 hasta el año 6000 a.C., durante el cual el ser humano comenzó a controlar el fuego y a desarrollar el lenguaje. (pág.&nbsp;32)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

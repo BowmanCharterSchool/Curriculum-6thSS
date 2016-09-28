@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="monotheism">
+    <pronunciation>
+        <voicing src="g6C-monotheism.mp3">monotheism</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The belief that only one God exists. (p.&nbsp;326)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="monoteísmo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Creencia en la existencia de un solo Dios. (pág.&nbsp;326)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

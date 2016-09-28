@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Alexandria">
+    <pronunciation>
+        <voicing src="g6C-alexandria.mp3">Alexandria</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A Hellenistic city in Egypt, on the Mediterranean Sea. Founded by Alexander the Great in 332 B.C., it was noted for its extensive ancient library as well as its lighthouse, one of the Seven Wonders of the World. (p.&nbsp;408)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Alejandría">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudad helenística de Egipto, en el Mediterráneo. Fue fundada por Alejandro Magno en el año 332 a.C. y se caracterizó por su extensa biblioteca antigua además de su faro, una de las siete maravillas del mundo. (pág.&nbsp;408)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

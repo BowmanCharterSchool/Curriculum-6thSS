@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="afterlife">
+    <pronunciation>
+        <voicing src="g6C-afterlife.mp3">afterlife</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A life believed to follow death. (p.&nbsp;159)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="más allá">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Vida después de la muerte. (pág.&nbsp;159)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,176 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<title>Both Pages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/resources.css" type="text/css">
+<link rel="stylesheet" media="print" href="../css/printables.css" type="text/css">
+<script language="JavaScript" src="../js/client_functionality.js"></script>
+<script language="JavaScript" src="../../book/js/permissions.js"></script>
+
+<script language="JavaScript">
+
+// SIZING
+// Size starts out at 1; it is independent of the main (book) size.
+
+var size = 1;
+
+// PAGE TO LOAD
+var QueryString = window.location.search.substring(1);
+var PageArray = new Array();
+
+PageArray = QueryString.split(/\//);
+
+// SmallerPage() and LargerPage() are similar to the bookpage ones, but deal with
+// both pages.
+
+function SmallerPage()
+{
+if (size > 1)
+	{ 
+	size--;
+	var leftpagepath = "../../book/pagegraphics/" + size + "/" + PageArray[0];
+	var rightpagepath = "../../book/pagegraphics/" + size + "/" + PageArray[1];
+	document["leftpageimage"].src = leftpagepath;
+	document["rightpageimage"].src = rightpagepath;
+	EnableButton("popup-larger")
+	if (size == 1)
+		{
+		DisableButton("popup-smaller")
+		};
+	}
+else
+	{
+	alert (getGlobalText("GT022"));
+	}
+}
+
+function LargerPage()
+{
+if (size < opener.PAGE_SIZE_MAXIMUM)
+	{ 
+	size++;
+	var leftpagepath = "../../book/pagegraphics/" + size + "/" + PageArray[0];
+	var rightpagepath = "../../book/pagegraphics/" + size + "/" + PageArray[1];
+	document["leftpageimage"].src = leftpagepath;
+	document["rightpageimage"].src = rightpagepath;
+	EnableButton("popup-smaller")
+	if (size == opener.PAGE_SIZE_MAXIMUM)
+		{
+		DisableButton("popup-larger")
+		};
+	}
+else
+	{
+	alert (getGlobalText("GT021"));
+	}
+}
+
+</script>
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+var VBS = false;
+// -->
+</SCRIPT>
+
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:window.focus()">
+<table width="100%" border="0" cellspacing="0" cellpadding="7" class="box_resource_top">
+  <tr> 
+    <td align="left" valign="bottom"> 
+      <table border="0" cellspacing="0" cellpadding="4" class="pagebox">
+        <tr> 
+          <td style="color: black">Both Pages</td>
+        </tr>
+        <tr>
+          <td style="color: black" class="subhead">This is how the page appears 
+            in the printed book.</td>
+        </tr>
+      </table>
+    </td>
+    <td align="right" valign="bottom"> 
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><a href="javascript:LargerPage()">
+<script language="JavaScript">
+
+var ActionString = 'onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)"';
+
+if (size < opener.PAGE_SIZE_MAXIMUM)
+	{
+	document.write('<img src="../graphics/nav/buttons/popup-larger.gif" name="popup-larger" alt="larger" border="0" width="46" class="button_larger" height="65" ' + ActionString + '>');
+	}
+else
+	{
+	document.write('<img src="../graphics/nav/buttons/popup-larger-disabled.gif" name="popup-larger" alt="larger" border="0" width="46" class="button_larger" height="65" ' + ActionString + '>');
+	}
+	
+</script></a>
+          </td>
+          <td align="left"><a href="javascript:SmallerPage()">
+<script language="JavaScript">
+if (size > 1)
+	{
+	document.write('<img src="../graphics/nav/buttons/popup-smaller.gif" name="popup-smaller" alt="smaller" border="0" class="button_smaller" width="51" height="65" ' + ActionString + '>');
+	}
+else
+	{
+	document.write('<img src="../graphics/nav/buttons/popup-smaller-disabled.gif" name="popup-smaller" alt="smaller" border="0" class="button_smaller" width="51" height="65" ' + ActionString + '>');
+	}
+
+</script></a>
+          </td>
+          <td><a href="javascript:window.close()"><img src="../graphics/nav/buttons/popup-close.gif" alt="close window" name="popup-close" class="button_close" width="82" height="63" border="0" onMouseOver="LightButton(this)" onMouseOut="UnlightButton(this)"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="10" class="content">
+  <tr align="left" valign="top"> 
+    <td> 
+      <table border="0" cellspacing="0" cellpadding="1" class="noprint">
+        <tr>
+          <td valign="top" class="permissions">
+<script language="JavaScript">
+var pagepath = "../../book/pagegraphics/" + size + "/" + PageArray[0];
+document.write('<img src="' + pagepath + '" name="leftpageimage" alt="left page" border="1" vspace="6" hspace="0">');
+
+var returnCode = writePermissions(PageArray[0]);
+if (returnCode) {document.write(returnCode);}
+
+</script>
+          </td>
+          <td valign="top" class="permissions">
+          
+<script language="JavaScript">
+var pagepath = "../../book/pagegraphics/" + size + "/" + PageArray[1];
+document.write('<img src="' + pagepath + '" name="rightpageimage" alt="right page" border="1" vspace="6" hspace="0">');
+
+var returnCode = writePermissions(PageArray[1]);
+if (returnCode) {document.write(returnCode);}
+
+</script>
+         
+          </td>
+        </tr>
+      </table>
+      <p class="onlyprint">To print a page, click the <b>Print page</b> 
+        button. If this button is not active, the page cannot be printed.</p>
+      </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="7" style="padding-top: 15px;">
+  <tr> 
+    <td colspan="2" class="copyright" style="color: black">&copy; Houghton Mifflin Company. 
+All rights reserved. With the exception of designated printable pages, no part 
+of this work may be reproduced or transmitted in any form or by any means, 
+electronic or mechanical, including photocopying or recording, or by any 
+information storage or retrieval system without the prior written permission of 
+Houghton Mifflin Company unless such copying is expressly permitted by federal 
+copyright law.</td>
+  </tr>
+</table>
+</html>

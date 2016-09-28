@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="tropical">
+    <pronunciation>
+        <voicing src="g6C-tropical.mp3">tropical</voicing>
+    </pronunciation>
+    <pos value="adj.">
+        <definition id="1">
+             <![CDATA[Having a warm and rainy climate. (p.&nbsp;290)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="tropical">
+            <pos value="adj.">
+                <definition id="1">
+                     <![CDATA[Con clima cálido y lluvioso. (pág.&nbsp;290)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

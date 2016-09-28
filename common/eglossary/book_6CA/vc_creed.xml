@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="creed">
+    <pronunciation>
+        <voicing src="g6C-creed.mp3">creed</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A statement of religious beliefs. (p.&nbsp;486)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="credo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Declaración de creencias religiosas. (pág.&nbsp;486)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

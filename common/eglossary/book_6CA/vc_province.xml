@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="province">
+    <pronunciation>
+        <voicing src="g6C-province.mp3">province</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A subdivision of an empire or country. (p.&nbsp;132)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="provincia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Subdivisión de un imperio o país. (pág.&nbsp;132)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

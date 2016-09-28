@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="bas-relief">
+    <pronunciation>
+        <voicing src="g6C-bas-relief.mp3">bas-relief</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A type of sculpture in which slightly raised figures stand out against a flat background. (p.&nbsp;516)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="bajorrelieve">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tipo de escultura en la cual las figuras resaltan un poco de un fondo plano. (pág.&nbsp;516)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

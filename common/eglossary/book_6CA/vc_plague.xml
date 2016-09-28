@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="plague">
+    <pronunciation>
+        <voicing src="g6C-plague.mp3">plague</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A disease that spreads very easily and usually causes death, affecting a significant portion of a population. (p.&nbsp;401)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="plaga">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Enfermedad a menudo mortal que se expande fácilmente y que afecta a una gran parte de la población. (pág.&nbsp;401)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

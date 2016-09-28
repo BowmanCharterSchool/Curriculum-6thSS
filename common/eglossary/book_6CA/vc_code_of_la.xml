@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="code of law">
+    <pronunciation>
+        <voicing src="g6C-code_of_la.mp3">code of law</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A set of written rules for people to obey. (p.&nbsp;115)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="código de leyes">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Conjunto de reglas escritas que los habitantes deben obedecer. (pág.&nbsp;115)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

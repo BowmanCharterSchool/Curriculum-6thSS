@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="alphabet">
+    <pronunciation>
+        <voicing src="g6C-alphabet.mp3">alphabet</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A set of letters used to represent the individual sounds of a language. (p.&nbsp;358)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="alfabeto">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Conjunto de letras utilizadas para representar los sonidos individuales de un idioma. (pág.&nbsp;358)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

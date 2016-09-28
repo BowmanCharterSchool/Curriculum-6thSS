@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="mosaic">
+    <pronunciation>
+        <voicing src="g6C-mosaic.mp3">mosaic</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A picture created from tiny pieces of colored stone or other material. (p.&nbsp;515)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="mosaico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Obra creada a partir de pequeños trozos coloreados de piedra u otro material. (pág.&nbsp;515)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

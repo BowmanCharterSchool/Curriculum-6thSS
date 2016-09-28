@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="textile">
+    <pronunciation>
+        <voicing src="g6C-textile.mp3">textile</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A woven or knitted cloth. (p.&nbsp;296)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="textil">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tela tramada o tejida. (pág.&nbsp;296)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

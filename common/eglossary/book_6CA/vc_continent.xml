@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="continent">
+    <pronunciation>
+        <voicing src="g6C-continent.mp3">continent</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of the seven large landmasses of Earth—North America, South America, Europe, Asia, Africa, Australia, and Antarctica. (p.&nbsp;9)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="continente">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Una de las siete grandes extensiones de tierra del planeta: América del Norte, América del Sur, Europa, Asia, África, Australia y la Antártida. (pág.&nbsp;9)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

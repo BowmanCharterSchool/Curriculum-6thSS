@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Piankhi">
+    <pronunciation>
+        <voicing src="g6C-piankhi.mp3">Piankhi</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A king of Kush around 750 B.C., who gained control of almost all of Egypt, becoming pharaoh and uniting the two kingdoms. (p.&nbsp;190)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Piankhi">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rey de Kush alrededor del año 750 a.C., que ganó control de casi todo Egipto, se convirtió en faraón y unificó los dos reinos. (pág.&nbsp;190)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

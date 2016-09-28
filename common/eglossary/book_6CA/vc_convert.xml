@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="convert">
+    <pronunciation>
+        <voicing src="g6C-convert.mp3">convert</voicing>
+    </pronunciation>
+    <pos value="v.">
+        <definition id="1">
+             <![CDATA[To convince someone to change his or her religion or beliefs. (p.&nbsp;477)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="convertir">
+            <pos value="v.">
+                <definition id="1">
+                     <![CDATA[Convencer a alguien de cambiar su religión y sus creencias. (pág.&nbsp;477)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

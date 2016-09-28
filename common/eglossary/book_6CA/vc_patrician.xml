@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="patrician">
+    <pronunciation>
+        <voicing src="g6C-patrician.mp3">patrician</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[One of the wealthy landowners who held the highest positions in government in ancient Rome. (p.&nbsp;437)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="patricio">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Miembro de una familia adinerada y hacendada que ocupaba los puestos más importantes del gobierno en la antigua Roma. (pág.&nbsp;437)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

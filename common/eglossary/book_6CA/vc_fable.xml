@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="fable">
+    <pronunciation>
+        <voicing src="g6C-fable.mp3">fable</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A short story that conveys a moral lesson, often by means of animal characters that possess human characteristics. (p.&nbsp;364)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="fábula">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Narración corta que transmite una enseñanza moral, a menudo mediante personajes animales que poseen características humanas. (pág.&nbsp;364)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

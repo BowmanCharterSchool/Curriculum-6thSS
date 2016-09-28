@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="filial piety">
+    <pronunciation>
+        <voicing src="g6C-filial_pie.mp3">filial piety</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Respect for one’s parents and ancestors— an important teaching of Confucianism. (p.&nbsp;261)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="amor filial">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Respeto de los hijos hacia sus padres y ancestros, enseñanza importante del confucionismo. (pág.&nbsp;261)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

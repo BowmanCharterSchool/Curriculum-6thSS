@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Byzantine Empire">
+    <pronunciation>
+        <voicing src="g6C-byzantine_.mp3">Byzantine Empire</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The Eastern Roman Empire, which was ruled from Constantinople and lasted for about a thousand years after the fall of the Western Roman Empire. (p.&nbsp;509)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="imperio bizantino">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Imperio Romano de Oriente, con capital en Constantinopla, que duró aproximadamente cien años hasta la caída del Imperio Romano de Occidente. (pág.&nbsp;509)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

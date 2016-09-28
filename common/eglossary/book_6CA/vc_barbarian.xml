@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="barbarian">
+    <pronunciation>
+        <voicing src="g6C-barbarian.mp3">barbarian</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person belonging to a group seen as primitive and uncivilized; especially, a person living outside the ancient Roman Empire. (p.&nbsp;502)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="bárbaro">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Persona perteneciente a un grupo considerado primitivo e incivilizado, especialmente una persona externa al antiguo imperio romano. (pág.&nbsp;502)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Harappan civilization">
+    <pronunciation>
+        <voicing src="g6C-harappan_c.mp3">Harappan civilization</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient Indian culture, dating back to 2500 B.C., that included the people of the entire Indus River region. (p.&nbsp;221)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="civilización harappa">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua cultura india, que se remonta al año 2500 a.C., y que comprende los pueblos de toda la región del río Indo. (pág.&nbsp;221)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

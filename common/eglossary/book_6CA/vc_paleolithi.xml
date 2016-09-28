@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Paleolithic Age">
+    <pronunciation>
+        <voicing src="g6C-paleolithi.mp3">Paleolithic Age</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The Old Stone Age—a period that lasted from about 2.5 million to 8000 B.C. and was marked by the use of simple stone tools by the earliest humans. (p.&nbsp;32)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Paleolítico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Antigua Edad de Piedra: período que duró desde el año 2.5 millones hasta el año 8000 a.C. y se caracterizó por el uso de herramientas simples de piedra por parte de los primeros seres humanos. (pág.&nbsp;32)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

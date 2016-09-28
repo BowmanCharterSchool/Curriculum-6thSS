@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Gentile">
+    <pronunciation>
+        <voicing src="g6C-gentile.mp3">Gentile</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person who is not Jewish. (p.&nbsp;478)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="gentil">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[No-judío. (pág.&nbsp;478)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

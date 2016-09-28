@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Qin">
+    <pronunciation>
+        <voicing src="g6C-qin.mp3">Qin</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A state of ancient China. (p.&nbsp;267)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Qin">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Estado de la antigua China. (pág.&nbsp;267)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

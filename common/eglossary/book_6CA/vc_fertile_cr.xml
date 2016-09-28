@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Fertile Crescent">
+    <pronunciation>
+        <voicing src="g6C-fertile_cr.mp3">Fertile Crescent</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An area of rich soil in the Middle East, stretching from the Mediterranean Sea through Mesopotamia to the Persian Gulf. (p.&nbsp;114)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Medialuna Fértil">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Zona de suelos ricos en el Medio Oriente, que se extiende desde el mar Mediterráneo a través de la Mesopotamia hasta el golfo Pérsico. (pág.&nbsp;114)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

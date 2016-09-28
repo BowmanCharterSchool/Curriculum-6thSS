@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="justice">
+    <pronunciation>
+        <voicing src="g6C-justice.mp3">justice</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[Fair treatment of people, in keeping with the law. (p.&nbsp;115)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value=" justicia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Tratamiento equitativo de las personas, en cumplimiento de la ley. (pág.&nbsp;115)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

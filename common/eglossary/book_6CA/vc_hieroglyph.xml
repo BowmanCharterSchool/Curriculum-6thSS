@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="hieroglyph">
+    <pronunciation>
+        <voicing src="g6C-hieroglyph.mp3">hieroglyph</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A picture standing for a word or sound. (p.&nbsp;158)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="jeroglífico">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Dibujo que representa una palabra o sonido. (pág.&nbsp;158)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

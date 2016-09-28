@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Paul">
+    <pronunciation>
+        <voicing src="g6C-paul.mp3">Paul</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The most important of the apostles who spread Jesus’ teachings. (p.&nbsp;479)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Pablo">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[El más importante de los apóstoles que divulgaba las enseñanzas de Jesús. (pág.&nbsp;479)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

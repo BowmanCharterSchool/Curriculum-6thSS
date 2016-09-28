@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="delta">
+    <pronunciation>
+        <voicing src="g6C-delta.mp3">delta</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The area near a river’s mouth where the river deposits large amounts of sand and silt. (p.&nbsp;147)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="delta">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Zona cercana a la boca de un río donde el río deposita grandes cantidades de arena y limo. (pág.&nbsp;147)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

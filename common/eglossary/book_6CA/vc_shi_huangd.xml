@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Shi Huangdi">
+    <pronunciation>
+        <voicing src="g6C-shi_huangd.mp3">Shi Huangdi</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A Chinese ruler who came to power in 221 B.C. and unified and expanded China by ending internal battles and conquering rival states. (p.&nbsp;267)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Shi Huangdi">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Soberano chino que asumió el poder en el año 221 a.C. y unificó y expandió la China al acabar con batallas internas y conquistar estados rivales. (pág.&nbsp;267)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Roman Catholic Church">
+    <pronunciation>
+        <voicing src="g6C-roman_cath.mp3">Roman Catholic Church</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The branch of Christianity that is under the authority of the pope. (p.&nbsp;511)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Iglesia Católica Romana">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Rama del cristianismo que se encuentra bajo la autoridad del papa. (pág.&nbsp;511)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

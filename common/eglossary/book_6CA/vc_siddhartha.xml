@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Siddhartha Gautama">
+    <pronunciation>
+        <voicing src="g6C-siddhartha.mp3">Siddhartha Gautama</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An Indian prince who founded Buddhism; also known as the Buddha. (p.&nbsp;233)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Siddhartha Gautama">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Príncipe indio fundador del Budismo, también conocido como Buda. (pág.&nbsp;233)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="papyrus">
+    <pronunciation>
+        <voicing src="g6C-papyrus.mp3">papyrus</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A paperlike material made from stems of the papyrus plant and used for writing by the ancient Egyptians. (p.&nbsp;158)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="papiro">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Material parecido al papel realizado con hojas de la planta de papiro y que los antiguos egipcios utilizaban para escribir. (pág.&nbsp;158)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

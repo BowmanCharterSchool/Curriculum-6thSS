@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Cicero">
+    <pronunciation>
+        <voicing src="g6C-cicero.mp3">Cicero</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A Roman consul and famous orator who opposed Julius Caesar. (p.&nbsp;445)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Cicerón">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cónsul y famoso orador romano que se opuso a Julio César. (pág.&nbsp;445)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

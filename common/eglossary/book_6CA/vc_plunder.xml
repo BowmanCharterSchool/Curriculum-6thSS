@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="plunder">
+    <pronunciation>
+        <voicing src="g6C-plunder.mp3">plunder</voicing>
+    </pronunciation>
+    <pos value="v.">
+        <definition id="1">
+             <![CDATA[To take possessions from by force. (p.&nbsp;504)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="saquear">
+            <pos value="v.">
+                <definition id="1">
+                     <![CDATA[Tomar posesión de algo por la fuerza. (pág.&nbsp;504)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

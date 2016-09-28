@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Pax Romana">
+    <pronunciation>
+        <voicing src="g6C-pax_romana.mp3">Pax Romana</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A long period of stability and peace in the Roman Empire, beginning in the reign of Augustus, during which the empire grew to its greatest size. (p.&nbsp;447)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Pax Romana">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Largo período de estabilidad y paz en el Imperio Romano que comenzó con el reinado de Augusto y durante el cual el imperio creció hasta alcanzar su máxima dimensión. (pág.&nbsp;447)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

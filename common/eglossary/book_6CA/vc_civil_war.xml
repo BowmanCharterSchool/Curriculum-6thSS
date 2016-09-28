@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="civil war">
+    <pronunciation>
+        <voicing src="g6C-civil_war.mp3">civil war</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An armed conflict between groups within the same country. (p.&nbsp;444)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="guerra civil">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Conflicto armado entre grupos dentro de un mismo país. (pág.&nbsp;444)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Royal Road">
+    <pronunciation>
+        <voicing src="g6C-royal_road.mp3">Royal Road</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A road for government use built by the ancient Persian ruler Darius, which helped unite the empire. (p.&nbsp;132)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Camino Real">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Camino para el uso del gobierno construido por el antiguo monarca persa Darío, que ayudó a unificar el imperio. (pág.&nbsp;132)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

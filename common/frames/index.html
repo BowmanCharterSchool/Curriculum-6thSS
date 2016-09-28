@@ -1,0 +1,37 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<title>eHistory-Social Science Book</title>
+
+<script language="JavaScript" src="../../book/js/pagedata_0-CA.js"></script> 
+<script language="JavaScript" src="../js/client_functionality.js"></script>
+<script language="JavaScript" src="../js/eb_functionality.js"></script> 
+
+<script language="JavaScript">
+
+if (BUTTONSDRAGABLE)
+	{
+	var buttonPositionText = "";
+	}
+
+// set pageToLaunch to '' to launch first TOC page
+//var pageToLaunch = 'SP5S-NA05-NHN-001';
+var pageToLaunch = '';
+
+// set stateSpecificGlossary to non-empty string to access 'h' glossary (7)
+var stateSpecificGlossary = '';
+
+// set stateSpecificGlossary to non-empty string to access alternate imaps index file (/imaps/index_'stateSpecificIMaps'.html)
+var stateSpecificIMaps = '';
+
+createEBookViewer(PAGE_RANGES, PAGE_PREFIXES, TOC_FIRST_FOLIO, TOC_LAST_FOLIO, TOC_LAUNCH_FOLIO, stateSpecificGlossary, stateSpecificIMaps);
+delete PAGE_RANGES;
+
+</script>
+
+</head>
+<frameset rows="110,*" border="0" onload="javascript:window.focus()" onUnload="ClosePopups()">
+	<frame src="nav.html" name="nav" scrolling="no" frameborder="0" noresize="noresize" onload="javascript:CheckNavFrame()">
+	<frame src="bookpage.html" name="bookpage" frameborder="0">
+</frameset>
+</html>

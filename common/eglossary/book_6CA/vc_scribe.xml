@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="scribe">
+    <pronunciation>
+        <voicing src="g6C-scribe.mp3">scribe</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A person who specializes in writing and serves as a record keeper. (pp. 102, 155)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="escriba">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Persona especializada en escribir y archivar documentos. (págs. 102, 155)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

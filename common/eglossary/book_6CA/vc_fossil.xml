@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="fossil">
+    <pronunciation>
+        <voicing src="g6C-fossil.mp3">fossil</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A remain of early life that has been preserved in the ground. (p.&nbsp;28)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="fósil">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Restos de un ser vivo antiguo que se ha preservado en la tierra. (pág.&nbsp;28)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

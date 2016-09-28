@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Maize">
+    <pronunciation>
+        <voicing src="g6C-maize.mp3">Maize</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A type of corn grown by Native American civilizations. (p.&nbsp;308)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="maíz">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cereal cultivado por las civilizaciones nativas americanas, cuyos granos se encuentran en mazorcas. (pág.&nbsp;308)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

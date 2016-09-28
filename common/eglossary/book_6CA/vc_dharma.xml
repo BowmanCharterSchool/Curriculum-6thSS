@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="dharma">
+    <pronunciation>
+        <voicing src="g6C-dharma.mp3">dharma</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[The collected teachings of Buddha. (p.&nbsp;235)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="darma">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Enseñanzas del Buda. (pág.&nbsp;235)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

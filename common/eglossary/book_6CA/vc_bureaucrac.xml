@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="bureaucracy">
+    <pronunciation>
+        <voicing src="g6C-bureaucrac.mp3">bureaucracy</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A system of organized government departments staffed by appointed officials. (p.&nbsp;269)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="burocracia">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Sistema en el cual el gobierno se divide en departamentos organizados administrados por funcionarios designados. (pág.&nbsp;269)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

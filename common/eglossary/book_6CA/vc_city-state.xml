@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="city-state">
+    <pronunciation>
+        <voicing src="g6C-city-state.mp3">city-state</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A political unit that includes a city and its nearby farmlands. (p.&nbsp;91)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="ciudad estado">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Unidad política que comprende una ciudad y sus territorios aledaños. (pág.&nbsp;91)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

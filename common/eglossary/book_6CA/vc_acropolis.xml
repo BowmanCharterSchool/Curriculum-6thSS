@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="acropolis">
+    <pronunciation>
+        <voicing src="g6C-acropolis.mp3">acropolis</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A fortified high place in an ancient Greek city, which contained important temples, monuments, and buildings. (p.&nbsp;396)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="acrópolis">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Cima fortificada de las antiguas ciudades griegas, que contenía templos, monumentos y edificios importantes. (pág.&nbsp;396)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

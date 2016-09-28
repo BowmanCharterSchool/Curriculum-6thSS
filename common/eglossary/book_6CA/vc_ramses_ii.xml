@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Ramses II">
+    <pronunciation>
+        <voicing src="g6C-ramses_ii.mp3">Ramses II</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[A pharaoh who ruled Egypt for 66 years, greatly expanding the Egyptian empire by conquering surrounding territories. (p.&nbsp;175)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Ramsés II">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Faraón que gobernó Egipto durante 66 años, y que expandió enormemente el imperio egipcio al conquistar territorios vecinos. (pág.&nbsp;175)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>

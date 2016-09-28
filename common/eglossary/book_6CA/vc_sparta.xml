@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<word value="Sparta">
+    <pronunciation>
+        <voicing src="g6C-sparta.mp3">Sparta</voicing>
+    </pronunciation>
+    <pos value="n.">
+        <definition id="1">
+             <![CDATA[An ancient Greek city-state of the Peloponnesus, noted for its militarism. (p.&nbsp;379)]]>
+        </definition>
+    </pos>
+    <translation lang="es">
+        <word value="Esparta">
+            <pos value="s.">
+                <definition id="1">
+                     <![CDATA[Ciudad estado de la antigua Grecia en el Peloponeso, caracterizada por su militarismo. (pág.&nbsp;379)]]>
+                </definition>
+            </pos>
+        </word>
+    </translation>
+</word>
